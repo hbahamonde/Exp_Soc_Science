@@ -1,0 +1,294 @@
+%LaTeX Curriculum Vitae Template
+%
+% Copyright (C) 2004-2009 Jason Blevins <jrblevin@sdf.lonestar.org>
+% http://jblevins.org/projects/cv-template/
+%
+% You may use use this document as a template to create your own CV
+% and you may redistribute the source code freely. No attribution is
+% required in any resulting documents. I do ask that you please leave
+% this notice and the above URL in the source code if you choose to
+% redistribute this file.
+
+\documentclass[letterpaper]{article}
+
+\usepackage{hyperref}
+\hypersetup{
+    bookmarks=true,         % show bookmarks bar?
+    unicode=false,          % non-Latin characters in Acrobat’s bookmarks
+    pdftoolbar=true,        % show Acrobat’s toolbar?
+    pdfmenubar=true,        % show Acrobat’s menu?
+    pdffitwindow=true,     % window fit to page when opened
+    pdfstartview={FitH},    % fits the width of the page to the window
+    pdftitle={My title},    % title
+    pdfauthor={Author},     % author
+    pdfsubject={Subject},   % subject of the document
+    pdfcreator={Creator},   % creator of the document
+    pdfproducer={Producer}, % producer of the document
+    pdfkeywords={keyword1} {key2} {key3}, % list of keywords
+    pdfnewwindow=true,      % links in new window
+    colorlinks=true,       % false: boxed links; true: colored links
+    linkcolor=blue,          % color of internal links (change box color with linkbordercolor)
+    citecolor=blue,        % color of links to bibliography
+    filecolor=blue,      % color of file links
+    urlcolor=blue           % color of external links
+}
+
+
+
+\usepackage{geometry}
+\usepackage{import} % To import email.
+\usepackage{marvosym} % face package
+%\usepackage{xcolor,color}
+\usepackage{fontawesome}
+\usepackage{amssymb} % for bigstar
+\usepackage{epigraph}
+\usepackage{float}
+\usepackage[svgnames]{xcolor}
+
+% Comment the following lines to use the default Computer Modern font
+% instead of the Palatino font provided by the mathpazo package.
+% Remove the 'osf' bit if you don't like the old style figures.
+\usepackage[T1]{fontenc}
+\usepackage[sc,osf]{mathpazo}
+
+% Set your name here
+\def\name{Experimental Social Science - Lab and Field Experiments}
+
+% Replace this with a link to your CV if you like, or set it empty
+% (as in \def\footerlink{}) to remove the link in the footer:
+\def\footerlink{}
+% \href{http://www.hectorbahamonde.com}{www.HectorBahamonde.com}
+
+% The following metadata will show up in the PDF properties
+\hypersetup{
+  colorlinks = true,
+  urlcolor = blue,
+  pdfauthor = {\name},
+  pdfkeywords = {intro to social sciences},
+  pdftitle = {\name: Syllabus},
+  pdfsubject = {Syllabus},
+  pdfpagemode = UseNone
+}
+
+\geometry{
+  body={6.5in, 8.5in},
+  left=1.0in,
+  top=1.25in
+}
+
+% Customize page headers
+\pagestyle{myheadings}
+\markright{{\tiny \name}}
+\thispagestyle{empty}
+
+% Custom section fonts
+\usepackage{sectsty}
+\sectionfont{\rmfamily\mdseries\Large}
+\subsectionfont{\rmfamily\mdseries\itshape\large}
+
+% Don't indent paragraphs.
+\setlength\parindent{0em}
+
+% Make lists without bullets
+\renewenvironment{itemize}{
+  \begin{list}{}{
+    \setlength{\leftmargin}{1.5em}
+  }
+}{
+  \end{list}
+}
+
+
+%%% bib begin
+\usepackage[american]{babel}
+\usepackage{csquotes}
+%\usepackage[style=chicago-authordate,doi=false,isbn=false,url=false,eprint=false]{biblatex}
+
+\usepackage[authordate,isbn=false,doi=false,url=false,eprint=false]{biblatex-chicago}
+\DeclareFieldFormat[article]{title}{\mkbibquote{#1}} % make article titles in quotes
+\DeclareFieldFormat[thesis]{title}{\mkbibemph{#1}} % make theses italics
+
+\AtEveryBibitem{\clearfield{month}}
+\AtEveryCitekey{\clearfield{month}}
+
+\addbibresource{/Users/hectorbahamonde/Bibliografia_PoliSci/library.bib} 
+\addbibresource{/Users/hectorbahamonde/Bibliografia_PoliSci/Bahamonde_BibTex2013.bib} 
+
+% USAGES
+%% use \textcite to cite normal
+%% \parencite to cite in parentheses
+%% \footcite to cite in footnote
+%% the default can be modified in autocite=FOO, footnote, for ex. 
+%%% bib end
+
+
+
+
+\begin{document}
+
+% Place name at left
+%{\huge \name}
+
+% Alternatively, print name centered and bold:
+\centerline{\huge \bf \name}
+
+%\epigraph{\emph{Statistics: ``science dealing with data about the condition of a state or community''}}{Gottfried Aschenwall, 1770}
+
+
+\vspace{0.25in}
+
+\begin{minipage}{0.45\linewidth}
+ University of Turku \\
+  INVEST \\
+  Turku, Finland\\
+  \\
+  \\
+
+\end{minipage}
+\hspace{4cm}\begin{minipage}{0.45\linewidth}
+  \begin{tabular}{ll}
+{\bf Last updated}: \today. \\
+ {\bf Download last version} \href{https://github.com/hbahamonde/Exp_Soc_Science/raw/master/Bahamonde_Exp_Soc_Sci.pdf}{here}.%\\
+   %{\bf {\color{red}{\scriptsize Not intended as a definitive version}}} %\\
+    \\
+    \\
+    \\
+    \\
+    \\
+  \end{tabular}
+\end{minipage}
+
+\subsection*{General Overview}
+
+
+\vspace{1mm}
+{\bf Professor}: H\'ector Bahamonde, PhD.\\
+\texttt{e:}\href{mailto:hibano@utu.fi}{\texttt{hibano@utu.fi}}\\
+\texttt{w:}\href{http://www.hectorbahamonde.com}{\texttt{www.HectorBahamonde.com}}\\
+{\bf Office Hours}: Schedule time with me \href{https://calendly.com/bahamonde}{\texttt{here}}.\\
+
+\vspace{5mm}
+{\bf Place}: \texttt{Pub-299}.\\
+{\bf Time}: Mondays at 12-14.\\
+
+{\bf Course website}: \href{https://moodle.utu.fi/course/view.php?id=26195}{\texttt{Moodle}}.
+
+%\vspace{5mm}
+%{\bf TA}: Valtteri Pulkkinen.\\
+%\texttt{e}: \href{mailto:valtteri.s.pulkkinen@utu.fi}{\texttt{valtteri.s.pulkkinen@utu.fi}}\\
+%{\bf TA Bio}: He is a soon-to-be MA in Political Science and the TA for this course. Pulkkinen is especially interested in quantitative methods, private-public cooperation and public affairs. You can email him for help before and during this course.\\
+
+
+
+\vspace{5mm}
+{\bf Program}:  Master of Social Sciences, University of Turku.\\
+{\bf Semester}: Fall.\\
+%{\bf Credits}: 2.
+
+
+
+
+
+\subsection*{Objectives}
+
+Students will learn to design experiments. Students will learn to understand how to gather experimental data and how various experimental designs relate to different statistical methods. Students will learn to critically evaluate the strengths and weaknesses of different experimental designs. Students will learn how new research questions and experimental designs build on the existing literature and generate cumulative scientific knowledge. After the course, students should know how to design meaningful experiments and draft implementation and analysis plans to run the experiments in practice. Students will understand the connection between their experimental design and statistical tools that they have learned in their statistics courses.
+
+\subsection*{Academic Integrity}
+
+I expect nothing but the best out of my students. 
+
+\begin{itemize}
+     \item[$\circ$] I expect students to do their reading \emph{before} class.
+     \item[$\circ$] Practical exercises should be turned it \emph{before} class. 
+     %\item[$\circ$] If you need to see me, plan your time accordingly. It's best to assume that my office hours will get busier before tests and submissions. Ask your TA or myself when in doubt. 
+
+  \item[$\circ$] I usually don't answer emails during weekends. 
+\end{itemize}
+
+
+\begin{itemize}
+  \item[{\color{red}\Pointinghand}] Plagiarism will not be tolerated. Make sure you follow the University's rules and definitions of plagiarism. Also, make sure you know how to cite your work. 
+
+  \item[{\color{red}\Pointinghand}] I won't accept late work.
+
+\end{itemize}
+
+\subsection*{Evaluations}
+
+\begin{enumerate}
+
+	% Participation
+	\item {\bf \emph{Reaction Paper}}: TBA.
+
+\begin{itemize}
+		\item[$\diamond$] While it shouldn't be necessary, you \emph{may} use resources on the Internet to answer the questions.
+\end{itemize}
+
+\end{enumerate}
+
+
+\subsection*{Schedule}
+
+
+\begin{enumerate}
+	\item {\color{ForestGreen}{\bf Survey Experiments}}
+
+			\begin{itemize} 
+
+        \item[$\diamond$] Overview:
+
+        \begin{enumerate}
+
+          % The Logic of the Survey Experiment Reexamined
+          \item[$\bullet$] \href{https://www.cambridge.org/core/product/identifier/S1047198700006343/type/journal_article}{\fullcite{Gaines2007}}
+
+          % The Generalizability of Survey Experiments
+          \item[$\bullet$] \href{https://www.cambridge.org/core/product/identifier/S2052263015000196/type/journal_article}{\fullcite{Mullinix2015}}
+
+        \end{enumerate}
+
+       \item[$\diamond$] Application \#1---conjoint experiments:
+
+           \begin{enumerate}
+
+           % Conjoint Survey Experiments
+           \item[$\bullet$] \href{https://www.cambridge.org/core/product/identifier/9781108777919%23c2/type/book_part}{\fullcite{Bansak2021}}
+
+           % Causal Inference in Conjoint Analysis: Understanding Multidimensional Choices via Stated Preference Experiments
+           \item[$\bullet$] \href{https://www.cambridge.org/core/product/identifier/S1047198700013589/type/journal_article}{\fullcite{Hainmueller2014a}}
+
+         \end{enumerate}
+
+        \item[$\diamond$] Application \#2---list experiments:
+
+          \begin{enumerate}
+
+              % Still for sale
+              \item[$\bullet$] \href{https://onlinelibrary.wiley.com/doi/abs/10.1111/ajps.12086}{\fullcite{Blair2014}}
+
+              % Comparing and Combining List and Endorsement Experiments: Evidence from Afghanistan
+              \item[$\bullet$] \href{https://link.springer.com/10.1057/s41269-020-00174-4}{\fullcite{Bahamonde2020a}}
+
+          \end{enumerate}
+
+      \end{itemize}
+
+  \item {\color{ForestGreen}{\bf Natural Experiments}}
+
+      \begin{itemize} 
+          \item[$\bullet$] \href{http://www.journals.cambridge.org/abstract_S0003055412000494}{\fullcite{Hainmueller2013}}
+      \end{itemize}
+
+\end{enumerate}
+
+
+\newpage
+\pagenumbering{roman}
+\setcounter{page}{1}
+\printbibliography
+
+
+
+\end{document}
+
+
