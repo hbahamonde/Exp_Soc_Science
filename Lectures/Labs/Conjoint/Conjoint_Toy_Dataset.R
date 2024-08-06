@@ -1,5 +1,6 @@
 cat("\014")
 rm(list=ls())
+setwd("/Users/hectorbahamonde/research/Fertility_Elections")
 
 # Pacman
 if (!require("pacman")) install.packages("pacman"); library(pacman) 
@@ -66,46 +67,62 @@ dat <- conjoint_data %>%
   mutate(ChoiceMade = as.integer(Chosen == Option)) %>%
   select(Respondent, Choice, Option, ChoiceMade, everything())
 
+# drop variables
+dat <- dat %>% select(
+  Respondent,
+  Choice,
+  Option,
+  ChoiceMade,
+  Chosen,
+  Policy,
+  Experience,
+  Party_Affiliation,
+  Gender
+) 
 
+# Save data
+
+## R
+save(dat, file = "/Users/hectorbahamonde/teaching/Exp_Soc_Science/Lectures/Labs/Conjoint/Conjoint_Data.RData")
+save(dat, file = "/Users/hectorbahamonde/teaching/Teaching_Material_Tests/Exp_Soc_Science/Labs/Conjoint/Conjoint_Data.RData")
+## CSV
+write.csv(dat, file = "/Users/hectorbahamonde/teaching/Exp_Soc_Science/Lectures/Labs/Conjoint/Conjoint_Data.csv")
+write.csv(dat, file = "/Users/hectorbahamonde/teaching/Teaching_Material_Tests/Exp_Soc_Science/Labs/Conjoint/Conjoint_Data.csv")
+## Stata
+p_load(foreign)
+write.dta(dat, "/Users/hectorbahamonde/teaching/Exp_Soc_Science/Lectures/Labs/Conjoint/Conjoint_Data.dta")
+write.dta(dat, "/Users/hectorbahamonde/teaching/Teaching_Material_Tests/Exp_Soc_Science/Labs/Conjoint/Conjoint_Data.dta")
+
+##############
 # Analysis
+##############
 
+# Pacman
+if (!require("pacman")) install.packages("pacman"); library(pacman) 
+
+# Load libraries
 p_load(cregg,dplyr,ggplot2)
 
+# Perform AMCE analysis
 analysis.1 <- cj(dat, ChoiceMade ~ Policy + Experience + Party_Affiliation, 
-                                             id = ~ Respondent, 
-                                             estimate = "amce")
+                 id = ~ Respondent, 
+                 estimate = "amce")
 
 plot(analysis.1)
 
 
-
+# Perform Marginal Means analysis
 analysis.2 <- cj(dat, ChoiceMade ~ Policy + Experience + Party_Affiliation, 
-                                              id = ~ Respondent, 
-                                              estimate = "mm", 
-                                              by = ~Gender)
-
+                 id = ~ Respondent, 
+                 estimate = "mm", 
+                 by = ~Gender)
 
 ggplot(analysis.2,
-                           aes(factor(level),
-                               y=estimate,
-                               ymin=lower,
-                               ymax=upper,
-                               color=factor(Gender))) + 
+       aes(factor(level),
+           y=estimate,
+           ymin=lower,
+           ymax=upper,
+           color=factor(Gender))) + 
   geom_hline(yintercept = 0.5, colour = "black", lty = 2) +
   geom_pointrange(position = position_dodge(width = 0.5), size=0.25)+
-  coord_flip() +
-  theme_bw() +
-  theme(
-    panel.grid.major.x = element_blank(),
-    panel.grid.major.y = element_blank(),
-    legend.position="bottom",
-    axis.text.y = element_text(size=14), 
-    axis.text.x = element_text(size=14), 
-    axis.title.y = element_text(size=14), 
-    axis.title.x = element_text(size=14), 
-    legend.text=element_text(size=14), 
-    legend.title=element_text(size=14),
-    plot.title = element_text(size=14),
-    strip.text.x = element_text(size = 14)) +
-  guides(colour=guide_legend(title="")) + 
-  labs(x = "", y = "")
+  coord_flip() 
