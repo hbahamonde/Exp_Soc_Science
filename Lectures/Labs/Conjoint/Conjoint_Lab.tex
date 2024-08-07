@@ -1,0 +1,198 @@
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[10pt]{article}
+\usepackage{lipsum} % Package to generate dummy text throughout this template
+
+%\usepackage[light, math]{iwona}
+%\usepackage[sc]{mathpazo} % Use the Palatino font
+\usepackage[T1]{fontenc} % Use 8-bit encoding that has 256 glyphs
+\linespread{1.05} % Line spacing - Palatino needs more space between lines
+\usepackage{microtype} % Slightly tweak font spacing for aesthetics
+
+\usepackage[hmarginratio=1:1,top=32mm,columnsep=20pt]{geometry} % Document margins
+\usepackage{multicol} % Used for the two-column layout of the document
+\usepackage[hang, small,labelfont=bf,up,textfont=it,up]{caption} % Custom captions under/above floats in tables or figures
+\usepackage{booktabs} % Horizontal rules in tables
+\usepackage{float} % Required for tables and figures in the multi-column environment - they need to be placed in specific locations with the [H] (e.g. \begin{table}[H])
+
+\usepackage{lettrine} % The lettrine is the first enlarged letter at the beginning of the text
+\usepackage{paralist} % Used for the compactitem environment which makes bullet points with less space between them
+
+\usepackage{abstract} % Allows abstract customization
+\renewcommand{\abstractnamefont}{\normalfont\bfseries} % Set the "Abstract" text to bold
+\renewcommand{\abstracttextfont}{\normalfont\small\itshape} % Set the abstract itself to small italic text
+
+\usepackage{titlesec} % Allows customization of titles
+\renewcommand\thesection{\Roman{section}} % Roman numerals for the sections
+\renewcommand\thesubsection{\Roman{subsection}} % Roman numerals for subsections
+\titleformat{\section}[block]{\large\scshape\centering}{\thesection.}{1em}{} % Change the look of the section titles
+\titleformat{\subsection}[block]{\large}{\thesubsection.}{1em}{} % Change the look of the section titles
+
+\usepackage{fancybox, fancyvrb, calc}
+\usepackage[svgnames]{xcolor}
+
+
+%----------------------------------------------------------------------------------------
+%	DOCUMENT ID (Department, Professor, Course, etc.) 
+%----------------------------------------------------------------------------------------
+
+\usepackage{fancyhdr} % Headers and footers
+\pagestyle{fancy} % All pages have headers and footers
+\fancyhead{} % Blank out the default header
+\fancyfoot{} % Blank out the default footer
+\fancyhead[C]{Programming Take-Home Exercise} % Custom header text
+\fancyfoot[RO,LE]{\thepage} % Custom footer text
+
+%----------------------------------------------------------------------------------------
+%	MY PACKAGES 
+%----------------------------------------------------------------------------------------
+
+\usepackage{amsmath}	
+%\usepackage{rotating}
+\usepackage{textcomp}
+\usepackage{caption}
+\usepackage{etex}
+%\usepackage[export]{adjustbox}
+%\usepackage{afterpage}
+%\usepackage{filecontents}
+\usepackage{color}
+\usepackage{latexsym}
+\usepackage{lscape}				%\begin{landscape} and \end{landscape}
+\usepackage{amsfonts}
+%\usepackage{mathabx}
+\usepackage{amssymb}
+%\usepackage{dashrule}
+%\usepackage{txfonts}
+%\usepackage{pgfkeys}
+%\usepackage{framed}
+\usepackage{tree-dvips}
+\usepackage{caption}
+%\usepackage{fancyvrb}
+%\usepackage{pgffor}
+\usepackage{xcolor}
+%\usepackage{pxfonts}
+\usepackage{wasysym}
+\usepackage{authblk}
+%\usepackage{paracol}
+\usepackage{setspace}
+%\usepackage{qtree}
+%\usepackage{tree-dvips}
+\usepackage{sgame}				% shouldn't have neither array nor tabularx packages
+\usepackage{tikz}
+%\usetikzlibrary{trees}
+\usepackage[latin1]{inputenc}
+%\label{tab:1} 		%\autoref{tab:1}	%ocupar para citar.
+% \hyperlik{table1}	\hypertarget{table1} 
+% \textquoteright			%apostrofe
+\usepackage{hyperref} 		%desactivar para link rojos
+\usepackage{natbib}
+%\usepackage{proof} 			%for proofs
+
+
+
+
+
+%----------------------------------------------------------------------------------------
+%	Other ADDS-ON
+%----------------------------------------------------------------------------------------
+
+% independence symbol \independent
+\newcommand\independent{\protect\mathpalette{\protect\independenT}{\perp}}
+\def\independenT#1#2{\mathrel{\rlap{$#1#2$}\mkern2mu{#1#2}}}
+
+
+% VERBATIM WITH BACKGROUND COLOR
+\newenvironment{colframe}{%
+  \begin{Sbox}
+    \begin{minipage}
+      {\columnwidth%-\leftmargin-\rightmargin-6pt
+      }
+    }{%
+    \end{minipage}
+  \end{Sbox}
+  \begin{center}
+    \colorbox{LightSteelBlue}{\TheSbox}
+  \end{center}
+}
+
+
+\hypersetup{
+    bookmarks=true,         % show bookmarks bar?
+    unicode=false,          % non-Latin characters in Acrobat$'$s bookmarks
+    pdftoolbar=true,        % show Acrobat$'$s toolbar?
+    pdfmenubar=true,        % show Acrobat$'$s menu?
+    pdffitwindow=false,     % window fit to page when opened
+    pdfstartview={FitH},    % fits the width of the page to the window
+    pdftitle={My title},    % title
+    pdfauthor={Author},     % author
+    pdfsubject={Subject},   % subject of the document
+    pdfcreator={Creator},   % creator of the document
+    pdfproducer={Producer}, % producer of the document
+    pdfkeywords={keyword1} {key2} {key3}, % list of keywords
+    pdfnewwindow=true,      % links in new window
+    colorlinks=true,       % false: boxed links; true: colored links
+    linkcolor=ForestGreen,          % color of internal links (change box color with linkbordercolor)
+    citecolor=ForestGreen,        % color of links to bibliography
+    filecolor=ForestGreen,      % color of file links
+    urlcolor=ForestGreen           % color of external links
+}
+
+
+% PROPOSITIONS
+\newtheorem{proposition}{Proposition}
+
+%\linespread{1.5}
+
+%----------------------------------------------------------------------------------------
+%	TITLE SECTION
+%----------------------------------------------------------------------------------------
+
+%\title{\vspace{-15mm}\fontsize{18pt}{7pt}\selectfont\textbf{Experimental Economists and Psychologists: Two Worlds Apart}} % Article title
+
+%\author[1]{
+%\large
+%\textsc{H\'ector Bahamonde}\\ 
+%\thanks{}
+%\normalsize Political Science Dpt. $\bullet$ Rutgers University \\ % Your institution
+%\normalsize \texttt{e:}\href{mailto:hector.bahamonde@rutgers.edu}{\texttt{hector.bahamonde@rutgers.edu}}\\
+%\normalsize \texttt{w:}\href{http://www.hectorbahamonde.com}{\texttt{www.hectorbahamonde.com}}
+%\vspace{-5mm}
+%}
+%\date{\today}
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+%\maketitle % Insert title
+
+
+\thispagestyle{fancy} % All pages have headers and footers
+
+%----------------------------------------------------------------------------------------
+%	ABSTRACT
+%----------------------------------------------------------------------------------------
+
+%\begin{abstract}
+%	ABSTRACT
+%\end{abstract}
+
+
+%----------------------------------------------------------------------------------------
+%	CONTENT
+%----------------------------------------------------------------------------------------
+
+%\graphicspath{
+%{/Users/hectorbahamonde/RU/Term5/Experiments_Redlawsk/Experiment/Data/}
+%}
+\hspace{-5mm}{\bf Instructor}: H\'ector Bahamonde.\\
+\texttt{e:}\href{mailto:hector.bahamonde@utu.fi}{\texttt{hector.bahamonde@utu.fi}}\\
+\texttt{w:}\href{http://www.hectorbahamonde.com}{\texttt{www.hectorbahamonde.com}}\\
+{\bf Course}: Experimental Methods in Social Sciences---INWS0059.
+
+\section*{Programming Take-Home Exercise}
+
+
+\end{document}
