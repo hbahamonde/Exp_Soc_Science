@@ -87,11 +87,24 @@
 % \hyperlik{table1}	\hypertarget{table1} 
 % \textquoteright			%apostrofe
 \usepackage{hyperref} 		%desactivar para link rojos
-\usepackage{natbib}
 %\usepackage{proof} 			%for proofs
 
 
+%%% bib begin
+\usepackage[american]{babel}
+\usepackage{csquotes}
+\usepackage[backend=biber,style=authoryear,dashed=false,doi=false,isbn=false,url=false,arxiv=false]{biblatex}
+%\DeclareLanguageMapping{american}{american-apa}
+\addbibresource{/Users/hectorbahamonde/Bibliografia_PoliSci/library.bib} 
+\addbibresource{/Users/hectorbahamonde/Bibliografia_PoliSci/Bahamonde_BibTex2013.bib} 
 
+
+% USAGES
+%% use \textcite to cite normal
+%% \parencite to cite in parentheses
+%% \footcite to cite in footnote
+%% the default can be modified in autocite=FOO, footnote, for ex. 
+%%% bib end
 
 
 %----------------------------------------------------------------------------------------
@@ -187,12 +200,40 @@
 %\graphicspath{
 %{/Users/hectorbahamonde/RU/Term5/Experiments_Redlawsk/Experiment/Data/}
 %}
-\hspace{-5mm}{\bf Instructor}: H\'ector Bahamonde.\\
+\hspace{-5mm}{\bf Instructor}: H\'ector Bahamonde, PhD.\\
 \texttt{e:}\href{mailto:hector.bahamonde@utu.fi}{\texttt{hector.bahamonde@utu.fi}}\\
 \texttt{w:}\href{http://www.hectorbahamonde.com}{\texttt{www.hectorbahamonde.com}}\\
 {\bf Course}: Experimental Methods in Social Sciences---INWS0059.
 
 \section*{Programming Take-Home Exercise}
 
+\subsection*{Instructions}
+
+\begin{enumerate}
+  \item Download the toy conjoint dataset in any of the following formats: \href{https://github.com/hbahamonde/Exp_Soc_Science/raw/main/Lectures/Labs/Conjoint/Conjoint_Data.RData}{\texttt{RData}}, \href{https://raw.githubusercontent.com/hbahamonde/Exp_Soc_Science/main/Lectures/Labs/Conjoint/Conjoint_Data.csv}{\texttt{csv}} or \href{https://github.com/hbahamonde/Exp_Soc_Science/raw/main/Lectures/Labs/Conjoint/Conjoint_Data.dta}{\texttt{dta}}.
+  \item Familiarize yourself with the \texttt{cj} function in the \texttt{cregg} {\bf R} package. Start \href{https://thomasleeper.com/cregg/reference/cregg.html}{here}.
+  \item Following \textcite{Hainmueller2014}, compute the 
+  \emph{Average Marginal Component Effect} (AMCE) estimator. Write 100 words on what can be learned. Use graphical methods to support your answer. Hint: \texttt{estimate = "amce"}.
+  \item Following \textcite{Leeper2020a}, compute 
+  the \emph{Marginal Means} (MM) estimator. Write 100 words on what can be learned. Use graphical methods to support your answer. Hint: \texttt{estimate = "mm"}.
+  \item Discuss the strengths and weaknesses of each estimator in up to 200 words.
+\end{enumerate}
+
+
+\subsection*{Expected Outputs}
+
+\begin{enumerate}
+  \item One {\bf R} script with your code. The code must run in one try and include all necessary packages and libraries. If the code does not run, the assignment will not be graded. 
+
+  \item One written report with your text responses in PDF format.
+\end{enumerate}
+
+
+
+% References
+\newpage
+\pagenumbering{Roman}
+\setcounter{page}{1}
+\printbibliography
 
 \end{document}
