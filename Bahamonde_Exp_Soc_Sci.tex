@@ -105,15 +105,10 @@
 %\usepackage[style=chicago-authordate,doi=false,isbn=false,url=false,eprint=false]{biblatex}
 
 
-\usepackage[authordate,isbn=false,doi=false,url=false,eprint=false]{biblatex-chicago}
-\DeclareFieldFormat[article]{title}{\mkbibquote{#1}} % make article titles in quotes
-\DeclareFieldFormat[thesis]{title}{\mkbibemph{#1}} % make theses italics
+\usepackage[backend=bibtex,style=authoryear,doi=false,url=false,isbn=false]{biblatex}
+\addbibresource{/Users/hectorbahamonde/Bibliografia_PoliSci/library.bib}
+\addbibresource{/Users/hectorbahamonde/Bibliografia_PoliSci/Bahamonde_BibTex2013.bib}
 
-\AtEveryBibitem{\clearfield{month}}
-\AtEveryCitekey{\clearfield{month}}
-
-\addbibresource{/Users/hectorbahamonde/Bibliografia_PoliSci/library.bib} 
-\addbibresource{/Users/hectorbahamonde/Bibliografia_PoliSci/Bahamonde_BibTex2013.bib} 
 
 % USAGES
 %% use \textcite to cite normal
