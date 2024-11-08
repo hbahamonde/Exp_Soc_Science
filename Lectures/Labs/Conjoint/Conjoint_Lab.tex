@@ -14,6 +14,21 @@
 \usepackage{marvosym} % face package
 
 
+% for r code: begin
+\usepackage{listings}
+\lstset{language=R,
+    basicstyle=\small\ttfamily,
+    stringstyle=\color{DarkGreen},
+    otherkeywords={0,1,2,3,4,5,6,7,8,9},
+    morekeywords={TRUE,FALSE},
+    deletekeywords={data,frame,length,as,character},
+    keywordstyle=\color{blue},
+    commentstyle=\color{DarkGreen},
+    backgroundcolor = \color{lightgray}
+}
+% for r code: end
+
+
 \usepackage[hmarginratio=1:1,top=32mm,columnsep=20pt]{geometry} % Document margins
 \usepackage{multicol} % Used for the two-column layout of the document
 \usepackage[hang, small,labelfont=bf,up,textfont=it,up]{caption} % Custom captions under/above floats in tables or figures
@@ -218,6 +233,25 @@
   \item  Download last version of this assignment \href{https://github.com/hbahamonde/Exp_Soc_Science/raw/main/Lectures/Labs/Conjoint/Conjoint_Lab.pdf}{{\color{red}here}}.%\\
 
   \item Download the toy conjoint dataset in any of the following formats: \href{https://github.com/hbahamonde/Exp_Soc_Science/raw/main/Lectures/Labs/Conjoint/Conjoint_Data.RData}{\texttt{RData}}, \href{https://raw.githubusercontent.com/hbahamonde/Exp_Soc_Science/main/Lectures/Labs/Conjoint/Conjoint_Data.csv}{\texttt{csv}} or \href{https://github.com/hbahamonde/Exp_Soc_Science/raw/main/Lectures/Labs/Conjoint/Conjoint_Data.dta}{\texttt{dta}}.
+
+
+\item Install the last version of the \texttt{cregg} {\bf R} package:
+
+\begin{lstlisting}
+# Install package
+if (!require("remotes")) {
+    install.packages("remotes")
+}
+remotes::install_github("leeper/cregg")
+
+# When asked ``Which would you like to update?''
+1 # and then hit ``Enter''
+
+# call package
+library("cregg")
+\end{lstlisting}
+
+
   \item Familiarize yourself with the \texttt{cj} function in the \texttt{cregg} {\bf R} package. Start \href{https://thomasleeper.com/cregg/reference/cregg.html}{here}.
   \item Following \textcite{Hainmueller2014}, compute the 
   \emph{Average Marginal Component Effect} (AMCE) estimator. Consider the following as the outcome variable: \texttt{ChoiceMade}. On the right-hand-side, consider the following variables: \texttt{Policy}, \texttt{Experience},  \texttt{Party\_Affiliation}). Write 100 words on what can be learned. Use graphical methods to support your answer. Hint: \texttt{estimate = "amce"}.
