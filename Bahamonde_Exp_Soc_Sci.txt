@@ -1,0 +1,569 @@
+%LaTeX Curriculum Vitae Template
+%
+% Copyright (C) 2004-2009 Jason Blevins <jrblevin@sdf.lonestar.org>
+% http://jblevins.org/projects/cv-template/
+%
+% You may use use this document as a template to create your own CV
+% and you may redistribute the source code freely. No attribution is
+% required in any resulting documents. I do ask that you please leave
+% this notice and the above URL in the source code if you choose to
+% redistribute this file.
+
+\documentclass[letterpaper]{article}
+
+\usepackage{hyperref}
+\hypersetup{
+    bookmarks=true,         % show bookmarks bar?
+    unicode=false,          % non-Latin characters in Acrobat’s bookmarks
+    pdftoolbar=true,        % show Acrobat’s toolbar?
+    pdfmenubar=true,        % show Acrobat’s menu?
+    pdffitwindow=true,     % window fit to page when opened
+    pdfstartview={FitH},    % fits the width of the page to the window
+    pdftitle={My title},    % title
+    pdfauthor={Author},     % author
+    pdfsubject={Subject},   % subject of the document
+    pdfcreator={Creator},   % creator of the document
+    pdfproducer={Producer}, % producer of the document
+    pdfkeywords={keyword1} {key2} {key3}, % list of keywords
+    pdfnewwindow=true,      % links in new window
+    colorlinks=true,       % false: boxed links; true: colored links
+    linkcolor=blue,          % color of internal links (change box color with linkbordercolor)
+    citecolor=blue,        % color of links to bibliography
+    filecolor=blue,      % color of file links
+    urlcolor=blue           % color of external links
+}
+
+
+
+\usepackage{geometry}
+\usepackage{import} % To import email.
+\usepackage{marvosym} % face package
+%\usepackage{xcolor,color}
+\usepackage{fontawesome}
+\usepackage{amssymb} % for bigstar
+\usepackage{epigraph}
+\usepackage{float}
+\usepackage[svgnames]{xcolor}
+
+% Comment the following lines to use the default Computer Modern font
+% instead of the Palatino font provided by the mathpazo package.
+% Remove the 'osf' bit if you don't like the old style figures.
+\usepackage[T1]{fontenc}
+\usepackage[sc,osf]{mathpazo}
+
+% Set your name here
+\def\name{Experimental Methods in Social Sciences---INWS0059}
+
+% Replace this with a link to your CV if you like, or set it empty
+% (as in \def\footerlink{}) to remove the link in the footer:
+\def\footerlink{}
+% \href{http://www.hectorbahamonde.com}{www.HectorBahamonde.com}
+
+% The following metadata will show up in the PDF properties
+\hypersetup{
+  colorlinks = true,
+  urlcolor = blue,
+  pdfauthor = {\name},
+  pdfkeywords = {intro to social sciences},
+  pdftitle = {\name: Syllabus},
+  pdfsubject = {Syllabus},
+  pdfpagemode = UseNone
+}
+
+\geometry{
+  body={6.5in, 8.5in},
+  left=1.0in,
+  top=1.25in
+}
+
+% Customize page headers
+\pagestyle{myheadings}
+\markright{{\tiny \name}}
+\thispagestyle{empty}
+
+% Custom section fonts
+\usepackage{sectsty}
+\sectionfont{\rmfamily\mdseries\Large}
+\subsectionfont{\rmfamily\mdseries\itshape\large}
+
+% Don't indent paragraphs.
+\setlength\parindent{0em}
+
+% Make lists without bullets
+\renewenvironment{itemize}{
+  \begin{list}{}{
+    \setlength{\leftmargin}{1.5em}
+  }
+}{
+  \end{list}
+}
+
+
+%%% bib begin
+\usepackage[american]{babel}
+\usepackage{csquotes}
+%\usepackage[style=chicago-authordate,doi=false,isbn=false,url=false,eprint=false]{biblatex}
+
+
+\usepackage[backend=bibtex,style=authoryear,doi=false,url=false,isbn=false]{biblatex}
+\addbibresource{/Users/hectorbahamonde/Bibliografia_PoliSci/library.bib}
+\addbibresource{/Users/hectorbahamonde/Bibliografia_PoliSci/Bahamonde_BibTex2013.bib}
+
+
+% USAGES
+%% use \textcite to cite normal
+%% \parencite to cite in parentheses
+%% \footcite to cite in footnote
+%% the default can be modified in autocite=FOO, footnote, for ex. 
+%%% bib end
+
+
+
+
+\begin{document}
+
+% Place name at left
+%{\huge \name}
+
+% Alternatively, print name centered and bold:
+\centerline{\huge \bf \name}
+
+\epigraph{\emph{Statistics: ``To consult the statistician after an experiment is finished is often merely to ask him to conduct a post mortem examination. He can perhaps say what the experiment died of''}}{Sir Ronald A. Fisher, 1938}
+
+
+\vspace{0.25in}
+
+\begin{minipage}{0.45\linewidth}
+ University of Turku \\
+  INVEST \\
+  Turku, Finland\\
+  \\
+  \\
+
+\end{minipage}
+\hspace{4cm}\begin{minipage}{0.45\linewidth}
+  \begin{tabular}{ll}
+{\bf Last updated}: \today. \\
+ {\bf Download last version} \href{https://github.com/hbahamonde/Exp_Soc_Science/raw/main/Bahamonde_Exp_Soc_Sci.pdf}{here}.%\\
+   %{\bf {\color{red}{\scriptsize Not intended as a definitive version}}} %\\
+    \\
+    \\
+    \\
+    \\
+    \\
+  \end{tabular}
+\end{minipage}
+
+\subsection*{General Overview}
+
+
+\vspace{1mm}
+{\bf Instructor}: H\'ector Bahamonde, PhD, Docent.\\
+\texttt{e:}\href{mailto:hector.bahamonde@utu.fi}{\texttt{hector.bahamonde@utu.fi}}\\
+\texttt{w:}\href{http://www.hectorbahamonde.com}{\texttt{www.HectorBahamonde.com}}\\
+{\bf Office Hours}: Schedule time with me \href{https://calendly.com/bahamonde}{\texttt{here}}.\\
+
+%\vspace{4mm}
+{\bf Place}: \texttt{Pub-368}.\\
+{\bf Dates}: 28.10, 04.11, 11.11, 18.11, 26.11, 03.12.\\
+{\bf Time}: Always from noon to 2pm.\\
+
+{\bf Course website}: \href{https://moodle.utu.fi/course/view.php?id=26195}{\texttt{Moodle}}.
+
+%\vspace{5mm}
+%{\bf TA}: Valtteri Pulkkinen.\\
+%\texttt{e}: \href{mailto:valtteri.s.pulkkinen@utu.fi}{\texttt{valtteri.s.pulkkinen@utu.fi}}\\
+%{\bf TA Bio}: He is a soon-to-be MA in Political Science and the TA for this course. Pulkkinen is especially interested in quantitative methods, private-public cooperation and public affairs. You can email him for help before and during this course.\\
+
+
+
+%\vspace{5mm}
+{\bf Program}: Master program in `Inequalities, Interventions and New Welfare State,' University of Turku.\\
+{\bf Semester}: Fall.\\
+%{\bf Credits}: 2.
+
+
+
+
+
+\subsection*{Objectives}
+
+%In this course on experimental methods, students will master the art of crafting experiments, from concept to execution. They'll delve into the collection of experimental data and discover how distinct designs align with various statistical techniques. Critical evaluation of experimental designs' merits and drawbacks will be a key focus, fostering an understanding of how they contribute to the broader scientific dialogue. By the course's end, students will be equipped to devise impactful experiments and outline practical plans for their implementation and analysis. Furthermore, they'll gain insights into the synergy between their experimental strategies and the statistical instruments previously learned.
+
+
+This course is designed to provide students with a comprehensive understanding of experimental methods in the social sciences. By the end of this course, students will master the ability to conceptualize various types of experiments. They will develop strong analytical skills to interpret and analyze experimental data. Students will engage in critical discussions about the strengths and weaknesses of experimental approaches, and how these approaches contribute to broader scientific inquiries. Finally, students will enhance their communication skills, improving their ability to clearly articulate experimental findings through written reports, with a focus on discussing the implications of research results. This course aims to equip students with the tools needed to contribute to the growing field of experimental research in social sciences.
+
+
+
+\subsection*{Academic Integrity}
+
+I expect nothing but the best out of my students. 
+
+\begin{itemize}
+     \item[$\circ$] I expect students to do their reading \emph{before} class.
+     \item[$\circ$] Practical exercises should be turned it \emph{before} class begins. 
+     %\item[$\circ$] If you need to see me, plan your time accordingly. It's best to assume that my office hours will get busier before tests and submissions. Ask your TA or myself when in doubt. 
+
+  \item[$\circ$] I do \emph{not} answer emails during weekends. 
+\end{itemize}
+
+
+\begin{itemize}
+  \item[{\color{red}\Pointinghand}] {\bf Plagiarism}: Plagiarism will not be tolerated. Make sure you follow the University's rules and definitions of plagiarism. Also, make sure you know how to cite your work. 
+
+  \item[{\color{red}\Pointinghand}] {\bf Using AI}: Familiarize yourself with the document ``\href{https://github.com/hbahamonde/Teaching_Material_Tests/raw/main/Common_resources/AI_Guidelines_2024.pdf}{INVEST guidelines for the use of AI tools in studies}.'' 
+
+  \item[{\color{red}\Pointinghand}] {\bf Late work}: I won't accept late work.
+
+\end{itemize}
+
+\subsection*{Evaluations}
+
+\begin{enumerate}
+  \item {\bf Two Reaction Papers}: You will submit two reaction papers in total during our class. You have to choose the week, i.e., the topic. Reaction papers are topical, i.e., they focus on themes rather than particular pieces. Also, reaction papers are critical assessments of the reading material, i.e., {\bf they are \emph{not} summaries}. Make sure you do \emph{all} your readings \emph{before} start writing. {\bf Reaction papers are due \emph{before} my lecture and submitted in the course's respective Moodle assignment section} (late papers and/or submissions via email will \emph{not} be considered). Make sure the length of your paper is never below 1k words but never longer than 1.5k words (I'll stop reading beyond that limit). Also, be sure to support your claims citing what you think is relevant; bear in mind aspects of citation format, and please, be economical (quotes should not exceed two sentences).
+
+  \begin{itemize}
+  \item[\Pointinghand] The following questions are intended for guidance only, and are meant to inspire you in your critical assessment. Reaction papers usually focus on \emph{a} grand question such as: \emph{What are the possible advantages/disadvantages of this particular methodology? How/where else would you apply this methodology? Is this methodology feasible in your particular area of research? Do you think this methodology posits ethical issues if applied in your area of research?}
+\end{itemize}
+
+\item {\bf One Programming Take-Home Exercise}: You can download the instructions \href{https://github.com/hbahamonde/Exp_Soc_Science/raw/main/Lectures/Labs/Conjoint/Conjoint_Lab.pdf
+}{here}. The assignment is {\bf due on on 26.11 \emph{before} class begins}.
+
+\item {\bf One ``Guided Tour'' to the \href{https://pcrclab.utu.fi/?page_id=894&lang=en}{PCRC Decision-Making Lab}}: In the context of our Lab Experiments lecture on 11.11, we will visit the PCRC lab and participate in an ongoing study. Attendance \emph{and} participation are mandatory. We will vote on the visit's date and time on the first day of class. Please cast your vote today \href{https://doodle.com/meeting/participate/id/dLn6RGAa}{here}.
+
+  
+
+
+\end{enumerate}
+
+
+
+\subsection*{Recommended Readings}
+
+\begin{itemize} 
+
+        % Jared Diamond and James Robinson. 2011. Natural experiments of history
+        %\item[$\diamond$] \href{https://search-ebscohost-com.ezproxy.utu.fi/login.aspx?direct=true&db=nlebk&AN=516924&site=ehost-live}{\fullcite{Diamond2011}}.
+
+        % Thad Dunning. 2012. Natural Experiments in the Social Sciences.
+        %\item[$\diamond$] \href{https://doi-org.ezproxy.utu.fi/10.1017/CBO9781139084444}{\fullcite{Dunning2012}}.
+
+        % Instruments of Development: Randomization in The Tropics, and the Search for the Elusive Keys to Economic Development (Deaton)
+        \item[$\diamond$] \href{http://www.nber.org/papers/w14690}{\fullcite{Deaton2009}}.
+
+        % Better LATE Than Nothing: Some Comments on Deaton (2009) and Heckman and Urzua (2009) (Imbens)
+        \item[$\diamond$] \href{http:www.aeaweb.org/articles.php?doi=10.1257/jel.48.2.399}{\fullcite{Imbens2010}}.
+
+
+        % Experimental Political Science and the Study of Causality: From Nature to the Lab (Morton)
+        \item[$\diamond$] \href{https://doi-org.ezproxy.utu.fi/10.1017/CBO9780511762888}{\fullcite{Morton:2010ly}}.
+
+        % Estimating and Using Individual Marginal Component Effects from Conjoint Experiments
+        %\item[$\diamond$] \href{https://www.cambridge.org/core/journals/political-analysis/article/estimating-and-using-individual-marginal-component-effects-from-conjoint-experiments/FE284F17AB91A18673CC33276FF45D34}{\fullcite{Zhirkov2022}}.
+
+        % 
+        \item[$\diamond$] \href{https://www.cambridge.org/core/journals/journal-of-experimental-political-science}{Journal of Experimental Political Science}.
+
+
+        
+% 28.10, 04.11, 11.11, 18.11, 26.11, 03.12
+
+% 1. 28.10 // Causal Inference in Social Science
+
+% 2. 04.11 // Survey Experiments (List and Conjoint experiments).
+
+% * Programming take-home homework: Statistical analyses conjoint data in R.
+
+% 3. 11.11 // Lab Experiments. 
+
+% 4. 18.11 // Natural experiments.
+
+% * LAB: Class trip to the PCRC lab (students participate in an actual study conducted at the lab).
+
+% * Programming take-home homework due.
+
+% 5. 26.11 // Field experiments
+
+% 6. 03.12 // Ethics
+
+
+\end{itemize} 
+
+\subsection*{Schedule and Required Readings}
+
+
+\begin{enumerate}
+
+\item {\bf 28.10}: {\color{ForestGreen}{\bf Causal Inference in Social Science}}.
+
+      \begin{itemize} 
+
+        \item[$\diamond$] Overview:
+
+        \begin{enumerate}
+
+          % yes // read
+          % Ch. 2. Experimental Thinking: A Premier on Social Science Experiments
+          \item[$\bullet$] \href{https://doi.org/10.1017/9781108991353.003}{\fullcite[]{Druckman2022a}}.
+
+
+          % Statistical Models and Shoe Leather // yes // read
+          \item[$\bullet$] \href{https://www.jstor.org/stable/270939}{\fullcite{Freedman1991a}}.
+
+          % HOLLAND's Statistics and Causal Inference
+          %\item[$\bullet$] \href{https://www.jstor.org/stable/2676760}{\fullcite{Holland1986}}.
+
+          % yes // read
+          % Counterfactuals and the Potential Outcome Model
+          \item[$\bullet$] \href{https://doi.org/10.1017/CBO9781107587991.003}{\fullcite{Morgan2014a}}.
+
+
+          % not too useful // consider Morgan or Mostly Harmless
+          % The Causal Inference Problem and the Rubin Causal Model Morton book
+          %\item[$\bullet$] \href{https://www.cambridge.org/core/product/identifier/CBO9780511762888A026/type/book_part}{\fullcite{Morton2012}}.
+
+
+
+
+          % David Freedman's "From association to causation: Some remarks on the history of statistics"          
+          % \item[$\bullet$] \href{https://www.jstor.org/stable/2676760}{\fullcite{Freedman1999}}.
+
+
+
+
+        \end{enumerate}
+
+        \item[{\color{red}$\diamond$}] {\color{red} Students cast their votes \href{https://doodle.com/meeting/participate/id/dLn6RGAa}{{\color{red}{(\texttt{CLICK HERE})}}} and chose time/date for the ``Guided Tour'' to the PCRC Decision-Making Lab}.
+
+
+      \end{itemize}
+
+
+
+	\item {\bf 04.11}: {\color{ForestGreen}{\bf Survey Experiments: Conjoint and List Designs}}.
+
+			\begin{itemize} 
+
+        \item[$\diamond$] Overview:
+
+        \begin{enumerate}
+
+          % ok // read
+          % The Logic of the Survey Experiment Reexamined
+          \item[$\bullet$] \href{https://www.cambridge.org/core/product/identifier/S1047198700006343/type/journal_article}{\fullcite{Gaines2007}}.
+
+          % ok // read
+          % The Generalizability of Survey Experiments
+          \item[$\bullet$] \href{https://www.cambridge.org/core/product/identifier/S2052263015000196/type/journal_article}{\fullcite{Mullinix2015a}}.
+
+        \end{enumerate}
+
+       \item[$\diamond$] Application \#1---conjoint experiments:
+
+           \begin{enumerate}
+
+           % Conjoint Survey Experiments
+           %\item[$\bullet$] \href{https://www.cambridge.org/core/product/identifier/9781108777919%23c2/type/book_part}{\fullcite{Bansak2021a}}.
+
+           % // ok // read
+           % Causal Inference in Conjoint Analysis: Understanding Multidimensional Choices via Stated Preference Experiments
+           \item[$\bullet$] \href{https://www.cambridge.org/core/product/identifier/S1047198700013589/type/journal_article}{\fullcite{Hainmueller2014}}.
+
+
+          % // ok // read
+          % Measuring Subgroup Preferences in Conjoint Experiment
+           \item[$\bullet$] \href{https://doi.org/10.1017/pan.2019.30}{\fullcite{Leeper2020a}}.
+
+        
+
+         \end{enumerate}
+
+        \item[$\diamond$] Application \#2---list experiments:
+
+          \begin{enumerate}
+
+              % // ok // read
+              % Statistical Analysis of List Experiments
+              \item[$\bullet$] \href{https://doi.org/10.1093/pan/mpr048}{\fullcite{Blair2012}}.
+
+              % // ok // read
+              % Still for sale
+              \item[$\bullet$] \href{https://link.springer.com/10.1057/s41269-020-00174-4}{\fullcite{Bahamonde2020a}}.
+
+          \end{enumerate}
+
+       \item[{\color{red}$\diamond$}] {\color{red}Give programming take-home exercise: Statistical Analysis of Conjoint Data in \texttt{R}. Homework is \underline{due on 26.11} \emph{before} class begins}.
+
+      \end{itemize}
+
+
+  \item {\bf 11.11}:  {\color{ForestGreen}{\bf Lab Experiments}}.
+
+        \begin{itemize} 
+
+        \item[$\diamond$] Overview:
+
+        % read // ok
+        % "Putting Politics in the Lab: A Review of Lab Experiments in Political Science" 
+        \begin{enumerate}
+          \item[$\bullet$] \href{https://doi.org/10.1017/gov.2018.14}{\fullcite{Bol2019a}}.
+
+          
+        \end{enumerate}
+
+       \item[$\diamond$] Applications:
+
+           \begin{enumerate}
+
+           % read // ok
+           % Electoral risk and vote buying, introducing prospect theory to the experimental study of clientelism (Bahamonde)
+           \item[$\bullet$] Vote buying: \href{https://doi.org/10.1016/j.electstud.2022.102497}{\fullcite{Bahamonde2022b}}.
+
+           % ok // read
+           % Beliefs and Voting Decisions: A Test of the Pivotal Voter Model
+          \item[$\bullet$] Political participation: \href{https://onlinelibrary.wiley.com/doi/pdf/10.1111/j.1540-5907.2008.00332.x}{\fullcite{Duffy2008a}}.
+
+
+          % ok // read
+          % "Explaining Variation in Broker Strategies: A Lab-in-the-Field Experiment in Senegal" by Jessica Gottlieb - Published in Comparative Political Studies in 2017
+          \item[$\bullet$] Clientelism [{\bf Bonus!} ``\emph{Lab-in-the-Field}'' Experiments]: \href{https://doi.org/10.1177/0010414017695336}{\fullcite{Gottlieb2017d}}.
+          % Brokers are randomly sampled, and participants face decisions with tangible stakes, allowing researchers to assess how brokers wield influence. The game introduces scenarios where brokers' preferences conflict with those of voters, testing how broker strategies change based on factors like anonymity, fear of sanctions, and potential rewards. This approach allows for controlled observation of voter behavior and broker strategies, reflecting broader electoral dynamics in clientelistic systems like Senegal.
+
+
+         \end{enumerate}
+
+      \end{itemize}
+
+  \item {\bf 18.11}:  {\color{ForestGreen}{\bf Natural Experiments}}.
+
+
+      \begin{itemize} 
+
+        \item[$\diamond$] Overview:
+
+        \begin{enumerate}
+
+
+          % ok // read
+          % Natural Experiments
+          %\item[$\bullet$] \href{https://www.cambridge.org/core/product/identifier/9781108777919%23c6/type/book_part}{\fullcite{Titiunik2021}}.
+
+          % ok // read
+          % Natural Experiments in the Social Sciences
+          \item[$\bullet$] \href{https://doi.org/10.1017/CBO9781139084444}{\fullcite{Dunning2012}}. %{\color{red}I think this is better than Titiunik. Give them Ch 1 an 2.}
+
+
+          \end{enumerate}
+
+       \item[$\diamond$] Applications:
+
+           \begin{enumerate}
+
+
+           % ok // read 
+           % Physical appearance and elections in Finland.
+           \item[$\bullet$] Elections: \href{https://doi.org/10.1111/pops.12940}{\fullcite{Bahamonde:2023}}.
+
+           %\item[$\bullet$] Immigrant discrimination: \href{http://www.journals.cambridge.org/abstract_S0003055412000494}{\fullcite{Hainmueller2013}}.
+
+           % ok // read
+           % Personal income and attitudes toward redistribution: A study of lottery winners
+           \item[$\bullet$] Income redistribution: \href{https://doi.org/10.1111/j.1467-9221.2006.00509.x}{\fullcite{Doherty2006}}.
+
+          % Caught in the Draft: The Effects of Vietnam Draft Lottery Status on Political Attitudes
+          % \item[$\bullet$] Political attitudes: \href{https://doi.org/10.1017/S0003055411000141}{\fullcite{Erikson2011}}.
+
+          % Politics, Banking, and Economic Development: Evidence from New World Economies
+          % read // ok
+          \item[$\bullet$] Origin of banking systems: \href{https://search.ebscohost.com/login.aspx?direct=true&db=nlebk&AN=516924&site=ehost-live&scope=site&ebv=EB&ppid=pp_88}{\fullcite{Haber2011}}.
+
+
+          % Do Televised Presidential Ads Increase Voter Turnout? Evidence from a Natural Experiment Author(s): Jonathan S. Krasno and Donald P. Green
+          % \item[$\bullet$] Political advertisement and participation: \href{https://www.jstor.org/stable/10.1017/s0022381607080176}{\fullcite{Krasno2008}}.
+         \end{enumerate}
+
+       
+      \end{itemize}
+
+ \item {\bf 26.11}:  {\color{ForestGreen}{\bf Field Experiments}}.
+
+
+      \begin{itemize} 
+
+        \item[$\diamond$] Overview:
+
+        \begin{enumerate}
+
+          % ok // read
+          % Introduction // Gerber, Alan and Green, Donald
+            \item[$\bullet$] \href{https://github.com/hbahamonde/Exp_Soc_Science/raw/c674cb87e82355ba4e1bed84086718605fb1fa3a/Lectures/Readings/Gerber_Green_Ch1.pdf}{\fullcite{Gerber2012a}}.
+
+          \end{enumerate}
+
+       \item[$\diamond$] Applications:
+
+         \begin{enumerate}
+
+
+            % The Effects of Canvassing, Telephone Calls, and Direct Mail on Voter Turnout: A Field Experiment // Gerber, Alan and Green, Donald
+            % \item[$\bullet$] Turnout: \href{https://utuvolter.fi/permalink/358FIN_UTUR/1rsgc7g/cdi_proquest_miscellaneous_60710543}{\fullcite{Gerber2000}}.
+
+            % Policy Feedback and Voter Turnout: Evidence from the Finnish Basic Income Experiment // Hirvonen, Salomo Schafer, Jerome Tukiainen, Janne
+            \item[$\bullet$] Turnout: \href{https://doi.org/10.1111/ajps.12915}{\fullcite{Hirvonen2024}}.
+
+            % Is Vote Buying Effective? Evidence from a Field Experiment in West Africa // Vicente, Pedro
+            \item[$\bullet$] Vote buying: \href{https://doi.org/10.1111/ecoj.12086}{\fullcite{Vicente2014}}.
+
+            % Does Corruption Information Inspire the Fight or Quash the Hope? A Field Experiment in Mexico on Voter Turnout, Choice, and Party Identification // Chong, Alberto, De La O, Ana Karlan, Dean, Wantchekon, Leonard
+            \item[$\bullet$] Corruption: \href{https://utuvolter.fi/permalink/358FIN_UTUR/1rsgc7g/cdi_crossref_primary_10_1086_6787666}{\fullcite{Chong2015}}.
+
+
+            
+         \end{enumerate}
+
+       
+           \item[{\color{red}$\diamond$}] {\color{red}Programming take-home exercise is due today \emph{before} class begins}.
+
+      \end{itemize}
+
+\item {\bf 03.12}:  {\color{ForestGreen}{\bf Ethics}}.
+
+
+      \begin{itemize} 
+
+        \item[$\diamond$] Overview:
+
+        \begin{enumerate}
+
+          % 11 History of Codes of Ethics and Human Subjects Research
+          \item[$\bullet$] \href{https://doi.org/10.1017/CBO9780511762888.011}{\fullcite{Morton2012b}}.
+
+          % 12 Ethical Decision Making and Political Science Experiments
+          \item[$\bullet$] \href{https://doi.org/10.1017/CBO9780511762888.012}{\fullcite{Morton2012a}}.
+
+          % 13 Deception in Experiments
+          \item[$\bullet$] \href{https://doi.org/10.1017/CBO9780511762888.013}{\fullcite{Morton2012c}}.
+
+          \end{enumerate}
+
+   
+      \end{itemize}
+
+\end{enumerate}
+
+
+\newpage
+%\pagenumbering{roman}
+%\setcounter{page}{1}
+\printbibliography
+
+% 1. Survey
+% 2. Natural
+% 3. Lab
+% 4. Field: consider "Experiments Using Social Media Data" Guess2021, consider "Experiments in Post-Conflict Contexts" Matanock2021
+% 5. Quasi-Experimental Design
+% 6. Ethics: consider "Threats to the Scientific Credibility of Experiments: Publication Bias and P-Hacking" Malhotra2021
+
+
+\end{document}
+
