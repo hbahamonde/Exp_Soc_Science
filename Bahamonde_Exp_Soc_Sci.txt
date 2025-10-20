@@ -128,7 +128,8 @@
 % Alternatively, print name centered and bold:
 \centerline{\huge \bf \name}
 
-\epigraph{\emph{Statistics: ``To consult the statistician after an experiment is finished is often merely to ask him to conduct a post mortem examination. He can perhaps say what the experiment died of''}}{Sir Ronald A. Fisher, 1938}
+\epigraph{\emph{Statistics: ``That's not an experiment you have there, that's an experience.''}}{Sir Ronald A. Fisher (1890–1962)}
+
 
 
 \vspace{0.25in}
@@ -164,11 +165,11 @@
 {\bf Office Hours}: Schedule time with me \href{https://calendly.com/bahamonde}{\texttt{here}}.\\
 
 %\vspace{4mm}
-{\bf Place}: \texttt{Pub-368}.\\
-{\bf Dates}: 28.10, 04.11, 11.11, 18.11, 26.11, 03.12.\\
+{\bf Room}: \texttt{Pub-368}.\\
+{\bf Fall 2025 dates}: 27.10; 03.11; 10.11. 17.11. 25.11. 02.12.\\
 {\bf Time}: Always from noon to 2pm.\\
 
-{\bf Course website}: \href{https://moodle.utu.fi/course/view.php?id=26195}{\texttt{Moodle}}.
+{\bf Course websites}: \href{https://moodle.utu.fi/course/view.php?id=33451}{\texttt{Moodle}} (students) \& \href{https://planner.peppi.utu.fi/group/opettajan-tyopoyta/toteutusten-hallinta?p_p_id=RealizationPortlet_WAR_realizationportlet&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&_RealizationPortlet_WAR_realizationportlet_struts.portlet.action=%2Frealization%2Fbasic&realization.realizationId=45184}{\texttt{Peppi}} (instructor only).\\
 
 %\vspace{5mm}
 %{\bf TA}: Valtteri Pulkkinen.\\
@@ -178,20 +179,22 @@
 
 
 %\vspace{5mm}
-{\bf Program}: Master program in `Inequalities, Interventions and New Welfare State,' University of Turku.\\
-{\bf Semester}: Fall.\\
+{\bf Program}: Master and PhD programs in `Inequalities, Interventions and New Welfare State,' University of Turku.
 %{\bf Credits}: 2.
 
 
 
 
 
+\subsection*{Motivation}
+
+
+In this course, we cover a range of experimental designs, each offering unique strengths while raising important questions. How does the controlled setting of lab experiments deepen our understanding of behavior in isolated conditions, and what boundaries does it set for causality? In survey experiments, to what extent do findings generalize to diverse populations, and how does question framing influence participant responses? With field experiments, how well does real-world application balance external validity with ethical considerations? Finally, natural experiments offer another dimension: what insights can naturally occurring events provide about causal relationships, and how can researchers ensure the robustness of such insights? Moreover, how can we ensure that our pursuit of knowledge upholds ethical standards, safeguarding the dignity, rights, and well-being of participants while enhancing the integrity and impact of our research? This course assesses diverse experimental designs, exploring their unique strengths and opening new avenues for inquiry and critical thinking.
+
+
 \subsection*{Objectives}
 
-%In this course on experimental methods, students will master the art of crafting experiments, from concept to execution. They'll delve into the collection of experimental data and discover how distinct designs align with various statistical techniques. Critical evaluation of experimental designs' merits and drawbacks will be a key focus, fostering an understanding of how they contribute to the broader scientific dialogue. By the course's end, students will be equipped to devise impactful experiments and outline practical plans for their implementation and analysis. Furthermore, they'll gain insights into the synergy between their experimental strategies and the statistical instruments previously learned.
-
-
-This course is designed to provide students with a comprehensive understanding of experimental methods in the social sciences. By the end of this course, students will master the ability to conceptualize various types of experiments. They will develop strong analytical skills to interpret and analyze experimental data. Students will engage in critical discussions about the strengths and weaknesses of experimental approaches, and how these approaches contribute to broader scientific inquiries. Finally, students will enhance their communication skills, improving their ability to clearly articulate experimental findings through written reports, with a focus on discussing the implications of research results. This course aims to equip students with the tools needed to contribute to the growing field of experimental research in social sciences.
+This course is designed to provide students with a comprehensive understanding of experimental methods in the social sciences. By the end of this course, students will master the ability to conceptualize various types of experiments. They will develop strong analytical skills to interpret experimental results. Students will engage in critical discussions about the strengths and weaknesses of experimental approaches, and how these approaches contribute to broader scientific inquiries. Finally, students will enhance their communication skills, improving their ability to clearly articulate experimental findings through written reports, with a focus on discussing the implications of research results. This course aims to equip students with the tools needed to contribute to the growing field of experimental research in social sciences.
 
 
 
@@ -201,7 +204,7 @@ I expect nothing but the best out of my students.
 
 \begin{itemize}
      \item[$\circ$] I expect students to do their reading \emph{before} class.
-     \item[$\circ$] Practical exercises should be turned it \emph{before} class begins. 
+     \item[$\circ$] Practical exercises should be turned in \emph{before} class begins. 
      %\item[$\circ$] If you need to see me, plan your time accordingly. It's best to assume that my office hours will get busier before tests and submissions. Ask your TA or myself when in doubt. 
 
   \item[$\circ$] I do \emph{not} answer emails during weekends. 
@@ -211,7 +214,7 @@ I expect nothing but the best out of my students.
 \begin{itemize}
   \item[{\color{red}\Pointinghand}] {\bf Plagiarism}: Plagiarism will not be tolerated. Make sure you follow the University's rules and definitions of plagiarism. Also, make sure you know how to cite your work. 
 
-  \item[{\color{red}\Pointinghand}] {\bf Using AI}: Familiarize yourself with the document ``\href{https://github.com/hbahamonde/Teaching_Material_Tests/raw/main/Common_resources/AI_Guidelines_2024.pdf}{INVEST guidelines for the use of AI tools in studies}.'' 
+  \item[{\color{red}\Pointinghand}] {\bf Using AI}: {\color{red}The use of AI is strictly forbidden in this course. You {\bf cannot} use AI to check for grammar/language editing}. Familiarize yourself with the document ``\href{https://github.com/hbahamonde/Teaching_Material_Tests/raw/main/Common_resources/AI_Guidelines_2024.pdf}{INVEST guidelines for the use of AI tools in studies}.'' 
 
   \item[{\color{red}\Pointinghand}] {\bf Late work}: I won't accept late work.
 
@@ -220,16 +223,19 @@ I expect nothing but the best out of my students.
 \subsection*{Evaluations}
 
 \begin{enumerate}
-  \item {\bf Two Reaction Papers}: You will submit two reaction papers in total during our class. You have to choose the week, i.e., the topic. Reaction papers are topical, i.e., they focus on themes rather than particular pieces. Also, reaction papers are critical assessments of the reading material, i.e., {\bf they are \emph{not} summaries}. Make sure you do \emph{all} your readings \emph{before} start writing. {\bf Reaction papers are due \emph{before} my lecture and submitted in the course's respective Moodle assignment section} (late papers and/or submissions via email will \emph{not} be considered). Make sure the length of your paper is never below 1k words but never longer than 1.5k words (I'll stop reading beyond that limit). Also, be sure to support your claims citing what you think is relevant; bear in mind aspects of citation format, and please, be economical (quotes should not exceed two sentences).
+  \item {\bf One take-home reaction paper}: You will submit one reaction paper during our class. You have to choose the week, i.e., the topic. {\color{red}You can choose a topic from any week except for the final week, where I will give an in-class short written assignment} (see below).
 
   \begin{itemize}
+  \item[\Pointinghand] Reaction papers are topical, i.e., they focus on \emph{themes} rather than particular pieces. Also, reaction papers are \emph{critical assessments} of the reading material, i.e., {\bf they are \emph{not} summaries}. Make sure you do \emph{all} your readings \emph{before} start writing. {\bf Reaction papers are due \emph{before} my lecture and submitted in the course's respective Moodle assignment section} (late papers and/or submissions via email will \emph{not} be considered). Make sure the length of your paper is never below 1k words but never longer than 1.5k words (I'll stop reading beyond that limit). Also, be sure to support your claims citing what you think is relevant; bear in mind aspects of citation format, and please, be economical (quotes should not exceed two sentences).
+
   \item[\Pointinghand] The following questions are intended for guidance only, and are meant to inspire you in your critical assessment. Reaction papers usually focus on \emph{a} grand question such as: \emph{What are the possible advantages/disadvantages of this particular methodology? How/where else would you apply this methodology? Is this methodology feasible in your particular area of research? Do you think this methodology posits ethical issues if applied in your area of research?}
 \end{itemize}
 
-\item {\bf One Programming Take-Home Exercise}: You can download the instructions \href{https://github.com/hbahamonde/Exp_Soc_Science/raw/main/Lectures/Labs/Conjoint/Conjoint_Lab.pdf
-}{here}. The assignment is {\bf due on on 26.11 \emph{before} class begins}.
+\item {\bf One in-class written assignment (final week)}. At the beginning of my lecture, you will have 20 minutes to complete a short in-class written assignment. This time you will have to answer questions in written form. It will be pencil-and-paper style. Questions might include all the material that has been covered in the course (i.e., all required readings), and this does include the material assigned for our last lecture.
 
-\item {\bf One ``Guided Tour'' to the \href{https://pcrclab.utu.fi/?page_id=894&lang=en}{PCRC Decision-Making Lab}}: In the context of our Lab Experiments lecture on 11.11, we will visit the PCRC lab and participate in an ongoing study. Attendance \emph{and} participation are mandatory. We will vote on the visit's date and time on the first day of class. Please cast your vote today \href{https://doodle.com/meeting/participate/id/dLn6RGAa}{here}.
+\item {\bf One Programming Take-Home Exercise}: You can download the instructions \href{https://github.com/hbahamonde/Exp_Soc_Science/raw/main/Lectures/Labs/Conjoint/Conjoint_Lab.pdf}{here}. The assignment is due online \emph{before} class begins.
+
+%\item {\bf One ``Guided Tour'' to the \href{https://pcrclab.utu.fi/?page_id=894&lang=en}{PCRC Decision-Making Lab}}: In the context of our Lab Experiments lecture on 11.11, we will visit the PCRC lab and participate in an ongoing study. Attendance \emph{and} participation are mandatory. We will vote on the visit's date and time on the first day of class. Please cast your vote today \href{https://doodle.com/meeting/participate/id/dLn6RGAa}{here}.
 
   
 
@@ -238,7 +244,7 @@ I expect nothing but the best out of my students.
 
 
 
-\subsection*{Recommended Readings}
+\subsection*{Recommendations}
 
 \begin{itemize} 
 
@@ -264,6 +270,9 @@ I expect nothing but the best out of my students.
         % 
         \item[$\diamond$] \href{https://www.cambridge.org/core/journals/journal-of-experimental-political-science}{Journal of Experimental Political Science}.
 
+        \item[$\diamond$] {\bf InvestHub ``Brown Bag’’ Talks}: I organize the monthly talks at \href{https://invest.utu.fi/welfare-research-and-ecosystem/investhub/}{InvestHub}, where we discuss ongoing research, including experimental and quasi-experimental studies. Participation in these seminars is \emph{highly} encouraged.
+
+
 
         
 % 28.10, 04.11, 11.11, 18.11, 26.11, 03.12
@@ -287,6 +296,7 @@ I expect nothing but the best out of my students.
 % 6. 03.12 // Ethics
 
 
+
 \end{itemize} 
 
 \subsection*{Schedule and Required Readings}
@@ -294,7 +304,7 @@ I expect nothing but the best out of my students.
 
 \begin{enumerate}
 
-\item {\bf 28.10}: {\color{ForestGreen}{\bf Causal Inference in Social Science}}.
+\item {\color{ForestGreen}{\bf Causal Inference in Social Sciences}}.
 
       \begin{itemize} 
 
@@ -333,14 +343,14 @@ I expect nothing but the best out of my students.
 
         \end{enumerate}
 
-        \item[{\color{red}$\diamond$}] {\color{red} Students cast their votes \href{https://doodle.com/meeting/participate/id/dLn6RGAa}{{\color{red}{(\texttt{CLICK HERE})}}} and chose time/date for the ``Guided Tour'' to the PCRC Decision-Making Lab}.
+        %\item[{\color{red}$\diamond$}] {\color{red} Students cast their votes \href{https://doodle.com/meeting/participate/id/dLn6RGAa}{{\color{red}{(\texttt{CLICK HERE})}}} and chose time/date for the ``Guided Tour'' to the PCRC Decision-Making Lab}.
 
 
       \end{itemize}
 
 
 
-	\item {\bf 04.11}: {\color{ForestGreen}{\bf Survey Experiments: Conjoint and List Designs}}.
+	\item {\color{ForestGreen}{\bf Survey Experiments: Conjoint and List Designs}}.
 
 			\begin{itemize} 
 
@@ -392,12 +402,12 @@ I expect nothing but the best out of my students.
 
           \end{enumerate}
 
-       \item[{\color{red}$\diamond$}] {\color{red}Give programming take-home exercise: Statistical Analysis of Conjoint Data in \texttt{R}. Homework is \underline{due on 26.11} \emph{before} class begins}.
+       \item[{\color{red}$\diamond$}] {\color{red}Give programming take-home exercise: Statistical Analysis of Conjoint Data in \texttt{R}. Homework is due online \emph{before} class begins}.
 
       \end{itemize}
 
 
-  \item {\bf 11.11}:  {\color{ForestGreen}{\bf Lab Experiments}}.
+  \item {\color{ForestGreen}{\bf Lab Experiments}}.
 
         \begin{itemize} 
 
@@ -434,7 +444,7 @@ I expect nothing but the best out of my students.
 
       \end{itemize}
 
-  \item {\bf 18.11}:  {\color{ForestGreen}{\bf Natural Experiments}}.
+  \item {\color{ForestGreen}{\bf Natural Experiments}}.
 
 
       \begin{itemize} 
@@ -462,7 +472,7 @@ I expect nothing but the best out of my students.
 
            % ok // read 
            % Physical appearance and elections in Finland.
-           \item[$\bullet$] Elections: \href{https://doi.org/10.1111/pops.12940}{\fullcite{Bahamonde:2023}}.
+           \item[$\bullet$] Physical appearance and elections: \href{https://doi.org/10.1111/pops.12940}{\fullcite{Bahamonde:2023}}.
 
            %\item[$\bullet$] Immigrant discrimination: \href{http://www.journals.cambridge.org/abstract_S0003055412000494}{\fullcite{Hainmueller2013}}.
 
@@ -475,7 +485,7 @@ I expect nothing but the best out of my students.
 
           % Politics, Banking, and Economic Development: Evidence from New World Economies
           % read // ok
-          \item[$\bullet$] Origin of banking systems: \href{https://search.ebscohost.com/login.aspx?direct=true&db=nlebk&AN=516924&site=ehost-live&scope=site&ebv=EB&ppid=pp_88}{\fullcite{Haber2011}}.
+          \item[$\bullet$] Origin of banking systems: \href{https://search.ebscohost.com/login.aspx?direct=true&db=nlebk&AN=516924&site=ehost-live&scope=site&ebv=EB&ppid=pp_88}{\fullcite{Haber2012}}.
 
 
           % Do Televised Presidential Ads Increase Voter Turnout? Evidence from a Natural Experiment Author(s): Jonathan S. Krasno and Donald P. Green
@@ -485,7 +495,7 @@ I expect nothing but the best out of my students.
        
       \end{itemize}
 
- \item {\bf 26.11}:  {\color{ForestGreen}{\bf Field Experiments}}.
+ \item {\color{ForestGreen}{\bf Field Experiments}}.
 
 
       \begin{itemize} 
@@ -526,7 +536,7 @@ I expect nothing but the best out of my students.
 
       \end{itemize}
 
-\item {\bf 03.12}:  {\color{ForestGreen}{\bf Ethics}}.
+\item {\color{ForestGreen}{\bf Ethics}}.
 
 
       \begin{itemize} 
@@ -545,6 +555,9 @@ I expect nothing but the best out of my students.
           \item[$\bullet$] \href{https://doi.org/10.1017/CBO9780511762888.013}{\fullcite{Morton2012c}}.
 
           \end{enumerate}
+
+        \item[{\color{red}$\diamond$}] {\color{red}In-class written assignment today. First 20 minutes of lecture. Please do not be late.}
+
 
    
       \end{itemize}
