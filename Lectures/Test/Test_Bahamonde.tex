@@ -1,0 +1,92 @@
+\documentclass[12pt]{article}
+
+\usepackage[margin=1in]{geometry}
+\usepackage{fancyhdr}
+
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{Experimental Methods in Social Sciences — INWS0059}
+%\lhead{Hector Bahamonde, PhD, Docent}
+\cfoot{\thepage}
+
+\setlength{\parindent}{0pt}
+
+% --- Answer lines macro (guaranteed visible) ---
+\newcount\mycount
+\newcommand{\answerlines}[1]{%
+  \mycount=0%
+  \vspace{0.2cm}%
+  \loop
+    \advance\mycount by 1%
+    \noindent\rule{\linewidth}{0.4pt}\\[0.4cm]
+  \ifnum\mycount<#1
+  \repeat
+  \vspace{0.2cm}
+}
+% ------------------------------------------------
+
+\begin{document}
+
+
+\begin{center}
+    {\Large \textbf{In-Class Written Examination}}\\[4pt]
+    {\large Experimental Methods in Social Sciences — INWS0059}\\[2pt]
+    {\large Hector Bahamonde, PhD, Docent}\\[10pt]
+    {\large \textbf{Duration: 30 minutes}}\\[6pt]
+\end{center}
+
+\vspace{0.2cm}
+
+\textbf{Name:} \hrulefill
+
+\vspace{0.2cm}
+
+\section*{Instructions}
+Answer all questions. Write clearly. Support your reasoning with concepts from lecture and readings.  
+
+\vspace{0.1cm}
+
+\section*{Questions}
+
+\textbf{1. Causal Inference [16p].} Explain the Fundamental Problem of Causal Inference. Using the potential outcomes framework, discuss why randomization solves this problem, and under which assumptions (reference SUTVA and ignorability). Provide an example where ignorability might fail.  
+
+\answerlines{8}
+
+\textbf{2. Design Integration [16p].} Compare within-subjects and between-subjects experimental designs. Discuss one methodological advantage and one disadvantage of each, and explain in which circumstances one design might be preferable over the other.  
+
+\answerlines{8}
+
+\textbf{3. Survey Experiments---Conjoint [16p].}  
+In a conjoint experiment, attributes and attribute levels are randomized. Explain how the AMCE is interpreted and why the choice of reference category affects it. Give one design choice that helps reduce social desirability bias.  
+
+\answerlines{8}
+
+\textbf{4. Survey Experiments...List Experiments [16p].} Describe how list experiments reduce social desirability bias. Identify two key assumptions required for a valid design (e.g., no design effects, no liars, no ceiling/floor effects). Explain how a violation of one assumption would bias the estimate.  
+ 
+\answerlines{8}
+
+\textbf{5. Lab Experiments [16p].} Lab experiments typically feature abstract designs, strict control, and monetary incentives. Explain why internal validity tends to be high, but external validity low. Provide an example (from lecture) where incentives shape behavior and discuss whether such incentives map onto real-world contexts.  
+ 
+\answerlines{8}
+
+\textbf{6. Natural Experiments [20p].} Define a natural experiment. Using one lecture application (appearance and elections, lotteries, or banking institutions), explain:  
+(a) what is claimed to be ``as-if random,''  
+(b) what the main threat to validity is, and  
+(c) how the authors attempt to justify covariate balance.  
+ 
+\answerlines{8}
+
+%\textbf{7. (Field Experiments)}  
+%Field experiments take place in realistic environments and require researcher-controlled treatment assignment. Identify one ethical challenge and one inferential challenge (e.g., spillovers, SUTVA violations). Using the vote-buying or corruption field experiment, explain how spillovers could bias the ATE.  
+% \answerlines{8}
+
+%\textbf{8. (Cross-Design Integration)}  
+%Choose any \emph{two} designs (lab, survey, natural, field). Explain how each design deals with confoundedness and covariate balance. Then argue which design offers stronger causal leverage for studying a politically sensitive behavior (e.g., vote buying, corruption, redistribution) and why.  
+%\answerlines{4cm}
+
+%\textbf{9. (Critical Evaluation)}  
+%Suppose you must study the effect of a government information campaign on political trust. You cannot ethically deceive subjects, and you cannot control the timing of the campaign. Propose a feasible design from class. Justify your choice using concepts such as external validity, ignorability, spillover risk, and treatment strength.  
+%\answerlines{4cm}
+
+
+\end{document}

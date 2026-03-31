@@ -14,9 +14,9 @@
 \usepackage{hyperref}
 \hypersetup{
     bookmarks=true,         % show bookmarks bar?
-    unicode=false,          % non-Latin characters in Acrobat’s bookmarks
-    pdftoolbar=true,        % show Acrobat’s toolbar?
-    pdfmenubar=true,        % show Acrobat’s menu?
+    unicode=false,          % non-Latin characters in Acrobat's bookmarks
+    pdftoolbar=true,        % show Acrobat's toolbar?
+    pdfmenubar=true,        % show Acrobat's menu?
     pdffitwindow=true,     % window fit to page when opened
     pdfstartview={FitH},    % fits the width of the page to the window
     pdftitle={My title},    % title
@@ -52,7 +52,7 @@
 \usepackage[sc,osf]{mathpazo}
 
 % Set your name here
-\def\name{Experimental Methods in Social Sciences---INWS0059}
+\def\name{Experimental Methods in Social Sciences---INWS0059-3002}
 
 % Replace this with a link to your CV if you like, or set it empty
 % (as in \def\footerlink{}) to remove the link in the footer:
@@ -128,8 +128,7 @@
 % Alternatively, print name centered and bold:
 \centerline{\huge \bf \name}
 
-\epigraph{\emph{Statistics: ``That's not an experiment you have there, that's an experience.''}}{Sir Ronald A. Fisher (1890–1962)}
-
+\epigraph{\emph{Statistics: ``That's not an experiment you have there, that’s an experience.''}}{Sir Ronald A. Fisher (1890–1962)}
 
 
 \vspace{0.25in}
@@ -159,17 +158,34 @@
 
 
 \vspace{1mm}
+{\bf Program}: Ma and PhD programs in `Inequalities, Interventions and New Welfare State,' University of Turku.\\
 {\bf Instructor}: H\'ector Bahamonde, PhD, Docent.\\
 \texttt{e:}\href{mailto:hector.bahamonde@utu.fi}{\texttt{hector.bahamonde@utu.fi}}\\
 \texttt{w:}\href{http://www.hectorbahamonde.com}{\texttt{www.HectorBahamonde.com}}\\
-{\bf Office Hours}: Schedule time with me \href{https://calendly.com/bahamonde}{\texttt{here}}.\\
+{\bf Office Hours and Zoom Meetings}: Schedule time with me \href{https://calendly.com/bahamonde}{\texttt{here}}.\\
+%{\bf Zoom}: Meetings in Zoom is also possible \href{https://utu.zoom.us/my/bahamondeh}{\texttt{here}}.\\
+{\bf Course websites}: \href{https://moodle.utu.fi/course/view.php?id=33451}{\texttt{Moodle}} (students) \& \href{https://planner.peppi.utu.fi/group/opettajan-tyopoyta/toteutusten-hallinta?p_p_id=RealizationPortlet_WAR_realizationportlet&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&_RealizationPortlet_WAR_realizationportlet_struts.portlet.action=%2Frealization%2Freservation_template&_RealizationPortlet_WAR_realizationportlet_struts.portlet.mode=view&realization.realizationId=51413}{\texttt{Peppi}} (instructor only).\\
+{\bf Time}: Always from 12.15 pm to 1.55 pm.
+
+
+
 
 %\vspace{4mm}
 {\bf Room}: \texttt{Pub-368}.\\
-{\bf Fall 2025 dates}: 27.10; 03.11; 10.11. 17.11. 25.11. 02.12.\\
-{\bf Time}: Always from noon to 2pm.\\
+\\
+{\bf Fall 2025 dates}:
 
-{\bf Course websites}: \href{https://moodle.utu.fi/course/view.php?id=33451}{\texttt{Moodle}} (students) \& \href{https://planner.peppi.utu.fi/group/opettajan-tyopoyta/toteutusten-hallinta?p_p_id=RealizationPortlet_WAR_realizationportlet&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&_RealizationPortlet_WAR_realizationportlet_struts.portlet.action=%2Frealization%2Fbasic&realization.realizationId=45184}{\texttt{Peppi}} (instructor only).\\
+\begin{itemize}
+
+\item {\bf Lecture \#1}: 27.10.
+\item {\bf Lecture \#2}: 03.11.
+\item {\bf Lecture \#3}: 10.11.
+\item {\bf Lecture \#4}: 17.11.
+\item {\bf Lecture \#5}: 25.11.
+\item {\bf Lecture \#6}: 02.12.
+
+\end{itemize}
+
 
 %\vspace{5mm}
 %{\bf TA}: Valtteri Pulkkinen.\\
@@ -179,12 +195,8 @@
 
 
 %\vspace{5mm}
-{\bf Program}: Master and PhD programs in `Inequalities, Interventions and New Welfare State,' University of Turku.
+%{\bf Semester}: Fall.\\
 %{\bf Credits}: 2.
-
-
-
-
 
 \subsection*{Motivation}
 
@@ -194,7 +206,7 @@ In this course, we cover a range of experimental designs, each offering unique s
 
 \subsection*{Objectives}
 
-This course is designed to provide students with a comprehensive understanding of experimental methods in the social sciences. By the end of this course, students will master the ability to conceptualize various types of experiments. They will develop strong analytical skills to interpret experimental results. Students will engage in critical discussions about the strengths and weaknesses of experimental approaches, and how these approaches contribute to broader scientific inquiries. Finally, students will enhance their communication skills, improving their ability to clearly articulate experimental findings through written reports, with a focus on discussing the implications of research results. This course aims to equip students with the tools needed to contribute to the growing field of experimental research in social sciences.
+This course is designed to provide students with a comprehensive understanding of experimental methods in the social sciences. By the end of this course, students will master the ability to conceptualize various types of experiments. They will develop strong analytical skills to interpret and analyze experimental data. Students will engage in critical discussions about the strengths and weaknesses of experimental approaches, and how these approaches contribute to broader scientific inquiries. Finally, students will enhance their communication skills, improving their ability to clearly articulate experimental findings through written reports, with a focus on discussing the implications of research results. This course aims to equip students with the tools needed to contribute to the growing field of experimental research in social sciences.
 
 
 
@@ -214,7 +226,7 @@ I expect nothing but the best out of my students.
 \begin{itemize}
   \item[{\color{red}\Pointinghand}] {\bf Plagiarism}: Plagiarism will not be tolerated. Make sure you follow the University's rules and definitions of plagiarism. Also, make sure you know how to cite your work. 
 
-  \item[{\color{red}\Pointinghand}] {\bf Using AI}: {\color{red}The use of AI is strictly forbidden in this course. You {\bf cannot} use AI to check for grammar/language editing}. Familiarize yourself with the document ``\href{https://github.com/hbahamonde/Teaching_Material_Tests/raw/main/Common_resources/AI_Guidelines_2024.pdf}{INVEST guidelines for the use of AI tools in studies}.'' 
+\item[{\color{red}\Pointinghand}] {\bf Using AI}: The use of artificial intelligence tools (e.g., ChatGPT) is {\bf forbidden} in this course. The \emph{only} exception is for grammar and style correction, which \emph{must} be explicitly reported by the student on the assignment itself.
 
   \item[{\color{red}\Pointinghand}] {\bf Late work}: I won't accept late work.
 
@@ -223,19 +235,21 @@ I expect nothing but the best out of my students.
 \subsection*{Evaluations}
 
 \begin{enumerate}
-  \item {\bf One take-home reaction paper}: You will submit one reaction paper during our class. You have to choose the week, i.e., the topic. {\color{red}You can choose a topic from any week except for the final week, where I will give an in-class short written assignment} (see below).
+  \item {\bf One reaction paper submitted online}: You will submit one reaction paper. You have to choose the week, i.e., the topic. {\bf The only week you \emph{cannot} choose is Lecture \#6}.\\
+
+  Reaction papers are topical, i.e., they focus on themes rather than particular pieces. Also, reaction papers are critical assessments of the reading material, i.e., {\bf they are \emph{not} summaries}. Make sure you do \emph{all} your readings \emph{before} start writing. {\bf Reaction papers are due \emph{before} my lecture and submitted in the course's respective \texttt{Moodle} assignment section} (late papers and/or submissions via email will \emph{not} be considered). Make sure the length of your paper is never below 1k words but never longer than 1.5k words (I'll stop reading beyond that limit). Also, be sure to support your claims citing what you think is relevant; bear in mind aspects of citation format, and please, be economical (quotes should not exceed two sentences).
+
 
   \begin{itemize}
-  \item[\Pointinghand] Reaction papers are topical, i.e., they focus on \emph{themes} rather than particular pieces. Also, reaction papers are \emph{critical assessments} of the reading material, i.e., {\bf they are \emph{not} summaries}. Make sure you do \emph{all} your readings \emph{before} start writing. {\bf Reaction papers are due \emph{before} my lecture and submitted in the course's respective Moodle assignment section} (late papers and/or submissions via email will \emph{not} be considered). Make sure the length of your paper is never below 1k words but never longer than 1.5k words (I'll stop reading beyond that limit). Also, be sure to support your claims citing what you think is relevant; bear in mind aspects of citation format, and please, be economical (quotes should not exceed two sentences).
+    \item[\Pointinghand] The following questions are intended for guidance only, and are meant to inspire you in your critical assessment. Reaction papers usually focus on \emph{a} grand question such as: \emph{What are the possible advantages/disadvantages of this particular methodology? How/where else would you apply this methodology? Is this methodology feasible in your particular area of research? Do you think this methodology posits ethical issues if applied in your area of research?}
+  \end{itemize}
+  
+  \item {\bf One in-class written assignment}: On {\bf Lecture \#6} there will be a 30-minute written test where you will write an essay using pencil and paper. I will give you the question(s). All readings assigned until (including) Lecture \#6 may be included.
 
-  \item[\Pointinghand] The following questions are intended for guidance only, and are meant to inspire you in your critical assessment. Reaction papers usually focus on \emph{a} grand question such as: \emph{What are the possible advantages/disadvantages of this particular methodology? How/where else would you apply this methodology? Is this methodology feasible in your particular area of research? Do you think this methodology posits ethical issues if applied in your area of research?}
-\end{itemize}
+\item {\bf One Programming Take-Home Exercise}: You can download the instructions \href{https://github.com/hbahamonde/Exp_Soc_Science/raw/main/Lectures/Labs/Conjoint/Conjoint_Lab.pdf}{here}. The assignment is {\bf due in class \#5, \emph{before} class begins}, and should be submitted in the respective \texttt{Moodle} assignment section of the course. This exercise may be completed in groups; however, individual assignment submissions are required.
 
-\item {\bf One in-class written assignment (final week)}. At the beginning of my lecture, you will have 20 minutes to complete a short in-class written assignment. This time you will have to answer questions in written form. It will be pencil-and-paper style. Questions might include all the material that has been covered in the course (i.e., all required readings), and this does include the material assigned for our last lecture.
 
-\item {\bf One Programming Take-Home Exercise}: You can download the instructions \href{https://github.com/hbahamonde/Exp_Soc_Science/raw/main/Lectures/Labs/Conjoint/Conjoint_Lab.pdf}{here}. The assignment is due online \emph{before} class begins.
-
-%\item {\bf One ``Guided Tour'' to the \href{https://pcrclab.utu.fi/?page_id=894&lang=en}{PCRC Decision-Making Lab}}: In the context of our Lab Experiments lecture on 11.11, we will visit the PCRC lab and participate in an ongoing study. Attendance \emph{and} participation are mandatory. We will vote on the visit's date and time on the first day of class. Please cast your vote today \href{https://doodle.com/meeting/participate/id/dLn6RGAa}{here}.
+%\item {\bf One ``Guided Tour'' to the \href{https://pcrclab.utu.fi/?page_id=894&lang=en}{PCRC Decision-Making Lab}}: In the context lab experiments, we will visit the PCRC lab and possibly, participate in an ongoing study. Attendance \emph{and} participation are mandatory. We will vote on the visit's time on the first day of class. Please cast your vote today \href{https://doodle.com/meeting/participate/id/dLnyLoXa}{here}. %{\color{red}Edit: after voting, we are going right after class}.
 
   
 
@@ -246,65 +260,59 @@ I expect nothing but the best out of my students.
 
 \subsection*{Recommendations}
 
-\begin{itemize} 
+\begin{itemize}
 
-        % Jared Diamond and James Robinson. 2011. Natural experiments of history
-        %\item[$\diamond$] \href{https://search-ebscohost-com.ezproxy.utu.fi/login.aspx?direct=true&db=nlebk&AN=516924&site=ehost-live}{\fullcite{Diamond2011}}.
+  \item {\bf Readings}: 
 
-        % Thad Dunning. 2012. Natural Experiments in the Social Sciences.
-        %\item[$\diamond$] \href{https://doi-org.ezproxy.utu.fi/10.1017/CBO9781139084444}{\fullcite{Dunning2012}}.
+    \begin{itemize} 
 
-        % Instruments of Development: Randomization in The Tropics, and the Search for the Elusive Keys to Economic Development (Deaton)
-        \item[$\diamond$] \href{http://www.nber.org/papers/w14690}{\fullcite{Deaton2009}}.
+    % Jared Diamond and James Robinson. 2011. Natural experiments of history
+    %\item[$\diamond$] \href{https://search-ebscohost-com.ezproxy.utu.fi/login.aspx?direct=true&db=nlebk&AN=516924&site=ehost-live}{\fullcite{Diamond2011}}.
 
-        % Better LATE Than Nothing: Some Comments on Deaton (2009) and Heckman and Urzua (2009) (Imbens)
-        \item[$\diamond$] \href{http:www.aeaweb.org/articles.php?doi=10.1257/jel.48.2.399}{\fullcite{Imbens2010}}.
+    % Thad Dunning. 2012. Natural Experiments in the Social Sciences.
+    %\item[$\diamond$] \href{https://doi-org.ezproxy.utu.fi/10.1017/CBO9781139084444}{\fullcite{Dunning2012}}.
 
+    % Instruments of Development: Randomization in The Tropics, and the Search for the Elusive Keys to Economic Development (Deaton)
+    \item[$\diamond$] \href{http://www.nber.org/papers/w14690}{\fullcite{Deaton2009}}.
 
-        % Experimental Political Science and the Study of Causality: From Nature to the Lab (Morton)
-        \item[$\diamond$] \href{https://doi-org.ezproxy.utu.fi/10.1017/CBO9780511762888}{\fullcite{Morton:2010ly}}.
+    \item[$\diamond$] \href{https://doi.org/10.1017/pan.2020.11}{\fullcite{Jenke2021}}.
 
-        % Estimating and Using Individual Marginal Component Effects from Conjoint Experiments
-        %\item[$\diamond$] \href{https://www.cambridge.org/core/journals/political-analysis/article/estimating-and-using-individual-marginal-component-effects-from-conjoint-experiments/FE284F17AB91A18673CC33276FF45D34}{\fullcite{Zhirkov2022}}.
-
-        % 
-        \item[$\diamond$] \href{https://www.cambridge.org/core/journals/journal-of-experimental-political-science}{Journal of Experimental Political Science}.
-
-        \item[$\diamond$] {\bf InvestHub ``Brown Bag’’ Talks}: I organize the monthly talks at \href{https://invest.utu.fi/welfare-research-and-ecosystem/investhub/}{InvestHub}, where we discuss ongoing research, including experimental and quasi-experimental studies. Participation in these seminars is \emph{highly} encouraged.
+    % Better LATE Than Nothing: Some Comments on Deaton (2009) and Heckman and Urzua (2009) (Imbens)
+    \item[$\diamond$] \href{http:www.aeaweb.org/articles.php?doi=10.1257/jel.48.2.399}{\fullcite{Imbens2010}}.
 
 
+    % Experimental Political Science and the Study of Causality: From Nature to the Lab (Morton)
+    \item[$\diamond$] \href{https://doi-org.ezproxy.utu.fi/10.1017/CBO9780511762888}{\fullcite{Morton:2010ly}}.
 
-        
-% 28.10, 04.11, 11.11, 18.11, 26.11, 03.12
-
-% 1. 28.10 // Causal Inference in Social Science
-
-% 2. 04.11 // Survey Experiments (List and Conjoint experiments).
-
-% * Programming take-home homework: Statistical analyses conjoint data in R.
-
-% 3. 11.11 // Lab Experiments. 
-
-% 4. 18.11 // Natural experiments.
-
-% * LAB: Class trip to the PCRC lab (students participate in an actual study conducted at the lab).
-
-% * Programming take-home homework due.
-
-% 5. 26.11 // Field experiments
-
-% 6. 03.12 // Ethics
+    % Matching as Nonparametric Preprocessing for Reducing Model Dependence in Parametric Causal Inference
+    \item[$\diamond$] \href{https://doi.org/10.1093/pan/mpl013}{\fullcite{Ho2006}}.
 
 
 
-\end{itemize} 
+    % Estimating and Using Individual Marginal Component Effects from Conjoint Experiments
+    %\item[$\diamond$] \href{https://www.cambridge.org/core/journals/political-analysis/article/estimating-and-using-individual-marginal-component-effects-from-conjoint-experiments/FE284F17AB91A18673CC33276FF45D34}{\fullcite{Zhirkov2022}}.
+
+    % 
+    \item[$\diamond$] \href{https://www.cambridge.org/core/journals/journal-of-experimental-political-science}{Journal of Experimental Political Science}.
+
+    \end{itemize} 
+
+
+\item {\bf Talks}:
+
+  \begin{itemize}
+    \item[$\diamond$] {\bf InvestHub ``Brown Bag’’ Talks}: I organize the monthly talks at \href{https://invest.utu.fi/welfare-research-and-ecosystem/investhub/}{InvestHub}, where we discuss ongoing research, including experimental and quasi-experimental studies. Participation in these seminars is \emph{highly} encouraged.
+  \end{itemize}
+
+\end{itemize}
+
 
 \subsection*{Schedule and Required Readings}
 
 
 \begin{enumerate}
 
-\item {\color{ForestGreen}{\bf Causal Inference in Social Sciences}}.
+\item {\bf Lecture \#1}: {\color{ForestGreen}{\bf Causal Inference in Social Sciences}}.
 
       \begin{itemize} 
 
@@ -312,20 +320,21 @@ I expect nothing but the best out of my students.
 
         \begin{enumerate}
 
-          % yes // read
+          % yes // read // ok pages
           % Ch. 2. Experimental Thinking: A Premier on Social Science Experiments
           \item[$\bullet$] \href{https://doi.org/10.1017/9781108991353.003}{\fullcite[]{Druckman2022a}}.
 
-
-          % Statistical Models and Shoe Leather // yes // read
-          \item[$\bullet$] \href{https://www.jstor.org/stable/270939}{\fullcite{Freedman1991a}}.
 
           % HOLLAND's Statistics and Causal Inference
           %\item[$\bullet$] \href{https://www.jstor.org/stable/2676760}{\fullcite{Holland1986}}.
 
           % yes // read
           % Counterfactuals and the Potential Outcome Model
-          \item[$\bullet$] \href{https://doi.org/10.1017/CBO9781107587991.003}{\fullcite{Morgan2014a}}.
+          \item[$\bullet$] \href{https://utuvolter.fi/permalink/358FIN_UTUR/1cgjm0n/alma9912284565405971}{\fullcite{Morgan2014a}}.
+
+
+          % Statistical Models and Shoe Leather // yes // read
+          \item[$\bullet$] \href{https://www.jstor.org/stable/270939}{\fullcite{Freedman1991a}}.
 
 
           % not too useful // consider Morgan or Mostly Harmless
@@ -343,14 +352,14 @@ I expect nothing but the best out of my students.
 
         \end{enumerate}
 
-        %\item[{\color{red}$\diamond$}] {\color{red} Students cast their votes \href{https://doodle.com/meeting/participate/id/dLn6RGAa}{{\color{red}{(\texttt{CLICK HERE})}}} and chose time/date for the ``Guided Tour'' to the PCRC Decision-Making Lab}.
+        %\item[{\color{red}$\diamond$}] {\color{red} Students cast their votes \href{https://doodle.com/meeting/participate/id/dLnyLoXa}{{\color{red}{(\texttt{CLICK HERE})}}} and chose time for the ``Guided Tour'' to the PCRC Decision-Making Lab}.
 
 
       \end{itemize}
 
 
 
-	\item {\color{ForestGreen}{\bf Survey Experiments: Conjoint and List Designs}}.
+	\item {\bf Lecture \#2}: {\color{ForestGreen}{\bf Survey Experiments: Conjoint and List Designs}}.
 
 			\begin{itemize} 
 
@@ -400,15 +409,17 @@ I expect nothing but the best out of my students.
               % Still for sale
               \item[$\bullet$] \href{https://link.springer.com/10.1057/s41269-020-00174-4}{\fullcite{Bahamonde2020a}}.
 
-          \end{enumerate}
 
-       \item[{\color{red}$\diamond$}] {\color{red}Give programming take-home exercise: Statistical Analysis of Conjoint Data in \texttt{R}. Homework is due online \emph{before} class begins}.
+          \end{enumerate}
+             \item[{\color{red}$\diamond$}] {\color{red}Give programming take-home exercise today after class}. 
+            
 
       \end{itemize}
 
 
-  \item {\color{ForestGreen}{\bf Lab Experiments}}.
+  \item {\bf Lecture \#3}:  {\color{ForestGreen}{\bf Lab Experiments}}.
 
+  
         \begin{itemize} 
 
         \item[$\diamond$] Overview:
@@ -422,6 +433,8 @@ I expect nothing but the best out of my students.
         \end{enumerate}
 
        \item[$\diamond$] Applications:
+
+
 
            \begin{enumerate}
 
@@ -444,7 +457,8 @@ I expect nothing but the best out of my students.
 
       \end{itemize}
 
-  \item {\color{ForestGreen}{\bf Natural Experiments}}.
+
+  \item {\bf Lecture \#4}:  {\color{ForestGreen}{\bf Natural Experiments}}.
 
 
       \begin{itemize} 
@@ -460,7 +474,7 @@ I expect nothing but the best out of my students.
 
           % ok // read
           % Natural Experiments in the Social Sciences
-          \item[$\bullet$] \href{https://doi.org/10.1017/CBO9781139084444}{\fullcite{Dunning2012}}. %{\color{red}I think this is better than Titiunik. Give them Ch 1 an 2.}
+          \item[$\bullet$] \href{https://doi.org/10.1017/CBO9781139084444}{\fullcite[Ch. 1 and Ch. 2]{Dunning2012}}. %{\color{red}I think this is better than Titiunik. Give them Ch 1 an 2.}
 
 
           \end{enumerate}
@@ -492,10 +506,10 @@ I expect nothing but the best out of my students.
           % \item[$\bullet$] Political advertisement and participation: \href{https://www.jstor.org/stable/10.1017/s0022381607080176}{\fullcite{Krasno2008}}.
          \end{enumerate}
 
-       
+     
       \end{itemize}
 
- \item {\color{ForestGreen}{\bf Field Experiments}}.
+ \item {\bf Lecture \#5}:  {\color{ForestGreen}{\bf Field Experiments}}.
 
 
       \begin{itemize} 
@@ -508,6 +522,10 @@ I expect nothing but the best out of my students.
           % Introduction // Gerber, Alan and Green, Donald
             \item[$\bullet$] \href{https://github.com/hbahamonde/Exp_Soc_Science/raw/c674cb87e82355ba4e1bed84086718605fb1fa3a/Lectures/Readings/Gerber_Green_Ch1.pdf}{\fullcite{Gerber2012a}}.
 
+          % consider giving chapter 8 too
+
+          % consider giving Gerber2012b
+
           \end{enumerate}
 
        \item[$\diamond$] Applications:
@@ -518,14 +536,20 @@ I expect nothing but the best out of my students.
             % The Effects of Canvassing, Telephone Calls, and Direct Mail on Voter Turnout: A Field Experiment // Gerber, Alan and Green, Donald
             % \item[$\bullet$] Turnout: \href{https://utuvolter.fi/permalink/358FIN_UTUR/1rsgc7g/cdi_proquest_miscellaneous_60710543}{\fullcite{Gerber2000}}.
 
+            % ok // read
             % Policy Feedback and Voter Turnout: Evidence from the Finnish Basic Income Experiment // Hirvonen, Salomo Schafer, Jerome Tukiainen, Janne
             \item[$\bullet$] Turnout: \href{https://doi.org/10.1111/ajps.12915}{\fullcite{Hirvonen2024}}.
 
+            % ok // read
             % Is Vote Buying Effective? Evidence from a Field Experiment in West Africa // Vicente, Pedro
             \item[$\bullet$] Vote buying: \href{https://doi.org/10.1111/ecoj.12086}{\fullcite{Vicente2014}}.
 
             % Does Corruption Information Inspire the Fight or Quash the Hope? A Field Experiment in Mexico on Voter Turnout, Choice, and Party Identification // Chong, Alberto, De La O, Ana Karlan, Dean, Wantchekon, Leonard
-            \item[$\bullet$] Corruption: \href{https://utuvolter.fi/permalink/358FIN_UTUR/1rsgc7g/cdi_crossref_primary_10_1086_6787666}{\fullcite{Chong2015}}.
+            \item[$\bullet$] Corruption: \href{https://www.journals.uchicago.edu/doi/abs/10.1086/678766}{\fullcite{Chong2015}}.
+
+            % give this one too next time
+            % \item[$\bullet$] Labor Market Discrimination: \href{https://doi.org/10.1257/0002828042002561}{\fullcite{Bertrand2004}}.
+            % Bertrand, Marianne, and Sendhil Mullanathan. 2004. Are Emily and Greg More Employable Than Lakisha and Jamil? A Field Experiment on Labor Market Discrimination. American Economic Review 94(4): 991-1013.
 
 
             
@@ -536,7 +560,7 @@ I expect nothing but the best out of my students.
 
       \end{itemize}
 
-\item {\color{ForestGreen}{\bf Ethics}}.
+\item {\bf Lecture \#6}:  {\color{ForestGreen}{\bf Ethics}}.
 
 
       \begin{itemize} 
@@ -556,16 +580,16 @@ I expect nothing but the best out of my students.
 
           \end{enumerate}
 
-        \item[{\color{red}$\diamond$}] {\color{red}In-class written assignment today. First 20 minutes of lecture. Please do not be late.}
-
-
+        \item[{\color{red}$\diamond$}] {\color{red}In-class written assignment}.
    
       \end{itemize}
+
+
 
 \end{enumerate}
 
 
-\newpage
+%\newpage
 %\pagenumbering{roman}
 %\setcounter{page}{1}
 \printbibliography

@@ -1,0 +1,80 @@
+\documentclass[12pt]{article}
+
+\usepackage[margin=1in]{geometry}
+\usepackage{fancyhdr}
+\usepackage[colorinlistoftodos,prependcaption]{todonotes}
+\usepackage{xcolor}
+
+\setlength{\marginparwidth}{2cm} % needed for todonotes in the margin
+
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{Experimental Methods in Social Sciences --- INWS0059}
+\cfoot{\thepage}
+
+\setlength{\parindent}{0pt}
+
+% small helper for point notes in the margin
+\newcommand{\pts}[1]{\todo[color=blue!20,size=\tiny]{#1 pts}}
+
+\begin{document}
+
+\begin{center}
+    {\Large \textbf{In-Class Written Examination --- Model Answers}}\\[4pt]
+    {\large Experimental Methods in Social Sciences --- INWS0059}\\[2pt]
+    {\large Hector Bahamonde, PhD, Docent}\\[10pt]
+    {\large \textbf{Duration: 30 minutes}}\\[6pt]
+\end{center}
+
+\vspace{0.2cm}
+
+\textbf{Name:} \hrulefill
+
+\vspace{0.2cm}
+
+\vspace{0.3cm}
+
+\section*{Questions and Model Answers}
+
+% Q1
+\textbf{1. Causal Inference.} Explain the Fundamental Problem of Causal Inference. Using the potential outcomes framework, discuss why randomization solves this problem, and under which assumptions (reference SUTVA and ignorability). Provide an example where ignorability might fail.\\[0.2cm]
+\pts{2} The Fundamental Problem of Causal Inference is that we can never observe both potential outcomes for the same individual, making individual treatment effects unobservable. \pts{2} Random assignment makes treatment independent of the potential outcomes, ensuring treated and control groups are comparable in expectation. \pts{2} Under this setup, differences in means identify the ATE. \pts{2} SUTVA requires no interference and well-defined treatments. \pts{2} Ignorability requires that treatment assignment is unrelated to potential outcomes. \pts{2} Ignorability often fails in observational settings when motivated or ideological subjects self-select into treatment, producing confounding.
+
+
+\vspace{0.5cm}\hrule\vspace{0.4cm}
+
+% Q2
+\textbf{2. Design Integration.} Compare within-subjects and between-subjects experimental designs. Discuss one methodological advantage and one disadvantage of each, and explain in which circumstances one design might be preferable over the other.\\[0.2cm]
+\pts{2} Within-subjects designs expose each participant to multiple conditions, increasing power by removing between-person variation. \pts{2} Their main drawback is the risk of carryover or demand effects that alter later responses. \pts{2} Between-subjects designs avoid these problems because each individual receives only one condition. \pts{2} Their disadvantage is higher sample size needs and greater sensitivity to subject heterogeneity. \pts{2} Within-subjects designs are preferable for stable attitudes or low-risk stimuli. \pts{2} Between-subjects designs are preferable when treatments may permanently influence responses or trigger demand effects.
+
+
+\vspace{0.5cm}\hrule\vspace{0.4cm}
+
+% Q3
+\textbf{3. Survey Experiments---Conjoint.} In a conjoint experiment, attributes and attribute levels are randomized. Explain how the AMCE is interpreted and why the choice of reference category affects it. Give one design choice that helps reduce social desirability bias.\\[0.2cm]
+\pts{2} A conjoint experiment randomizes attribute levels, allowing the AMCE to capture the average causal effect of switching one attribute level to another. \pts{2} Because AMCEs are interpreted relative to a reference category, changing that baseline changes the numerical value of the AMCE even when preferences are unchanged. \pts{2} The AMCE averages over the random distribution of all other attributes, isolating each component’s causal contribution. \pts{2} Conjoint designs reduce social desirability bias because sensitive attributes are embedded among many others. \pts{2} A helpful design choice is randomizing attribute order so no sensitive attribute is overly salient.
+
+\vspace{0.5cm}\hrule\vspace{0.4cm}
+
+% Q4
+\textbf{4. Survey Experiments...List Experiments.} Describe how list experiments reduce social desirability bias. Identify two key assumptions required for a valid design (e.g., no design effects, no liars, no ceiling/floor effects). Explain how a violation of one assumption would bias the estimate.\\[0.2cm]
+
+\pts{2} List experiments reduce social desirability bias by asking respondents how many items apply rather than which ones, concealing individual endorsement of the sensitive item. \pts{2} Valid inference requires no design effects, meaning adding the sensitive item must not change responses to control items. \pts{2} It also requires truthful reporting and the absence of floor or ceiling limitations so respondents can move upward when the sensitive item applies. \pts{2} Violations create bias because the difference in mean item counts no longer isolates endorsement of the sensitive behavior but reflects changes in how people answer the other items.
+
+\vspace{0.5cm}\hrule\vspace{0.4cm}
+
+% Q5
+\textbf{5. Lab Experiments.} Lab experiments typically feature abstract designs, strict control, and monetary incentives. Explain why internal validity tends to be high, but external validity low. Provide an example (from lecture) where incentives shape behavior and discuss whether such incentives map onto real-world contexts.\\[0.2cm]
+
+\pts{2} Lab experiments achieve high internal validity because researchers precisely control treatments, timing, and information, minimizing alternative explanations. \pts{2} External validity is lower because lab settings are artificial, incentives simplified, and samples often unrepresentative. \pts{2} In the vote-buying lab game, real monetary payoffs shape strategic behavior in ways consistent with risk aversion and endowment theory. \pts{2} However, real-world politicians face legal, reputational, and long-term strategic constraints that laboratory incentives cannot fully capture, limiting generalizability.
+
+
+\vspace{0.5cm}\hrule\vspace{0.4cm}
+
+% Q6
+\textbf{6. Natural Experiments.} Define a natural experiment. Using one lecture application (appearance and elections, lotteries, or banking institutions), explain: (a) what is claimed to be ``as-if random,'' (b) what the main threat to validity is, and (c) how the authors attempt to justify covariate balance.\\[0.2cm]
+
+\pts{2} A natural experiment exploits an external event that assigns treatment in a way plausibly unrelated to potential outcomes, approximating randomization. \pts{2} In the lottery-winner study, the amount of money won is considered ``as-if random,'' originating from the lottery draw rather than from prior attitudes. \pts{2} A key threat is sample selection or attrition if winners who agree to be interviewed differ systematically from those who do not. \pts{2} The authors justify covariate balance by showing that observable characteristics are similar across prize amounts and by arguing that conditional on entering the lottery, prize assignment is random.
+
+
+\end{document}
