@@ -45,6 +45,28 @@
 \usepackage{float}
 \usepackage[svgnames]{xcolor}
 
+% Rounded information boxes, matching the RESLIDE paper/proposal.
+\usepackage[most]{tcolorbox}
+\definecolor{OverviewBlue}{HTML}{264653}
+\definecolor{DatesGreen}{HTML}{2A9D8F}
+\newtcolorbox{syllabusbox}[2]{
+  breakable,
+  colback=#1!6,
+  colframe=#1!70!black,
+  coltitle=white,
+  fonttitle=\bfseries,
+  title={#2},
+  boxrule=0.8pt,
+  arc=2mm,
+  left=8pt,
+  right=8pt,
+  top=7pt,
+  bottom=7pt,
+  before skip=10pt,
+  after skip=10pt
+}
+
+
 % Comment the following lines to use the default Computer Modern font
 % instead of the Palatino font provided by the mathpazo package.
 % Remove the 'osf' bit if you don't like the old style figures.
@@ -52,7 +74,7 @@
 \usepackage[sc,osf]{mathpazo}
 
 % Set your name here
-\def\name{Experimental Methods in Social Sciences---INWS0059-3002}
+\def\name{Experimental Methods in Social Sciences---INWS0059}
 
 % Replace this with a link to your CV if you like, or set it empty
 % (as in \def\footerlink{}) to remove the link in the footer:
@@ -141,7 +163,7 @@
   \\
 
 \end{minipage}
-\hspace{4cm}\begin{minipage}{0.45\linewidth}
+\hfill\begin{minipage}{0.45\linewidth}
   \begin{tabular}{ll}
 {\bf Last updated}: \today. \\
  {\bf Download last version} \href{https://github.com/hbahamonde/Exp_Soc_Science/raw/main/Bahamonde_Exp_Soc_Sci.pdf}{here}.%\\
@@ -154,10 +176,7 @@
   \end{tabular}
 \end{minipage}
 
-\subsection*{General Overview}
-
-
-\vspace{1mm}
+\begin{syllabusbox}{OverviewBlue}{General Overview}
 {\bf Program}: Ma and PhD programs in `Inequalities, Interventions and New Welfare State,' University of Turku.\\
 {\bf Instructor}: H\'ector Bahamonde, PhD, Docent.\\
 \texttt{e:}\href{mailto:hector.bahamonde@utu.fi}{\texttt{hector.bahamonde@utu.fi}}\\
@@ -165,26 +184,28 @@
 {\bf Office Hours and Zoom Meetings}: Schedule time with me \href{https://calendly.com/bahamonde}{\texttt{here}}.\\
 %{\bf Zoom}: Meetings in Zoom is also possible \href{https://utu.zoom.us/my/bahamondeh}{\texttt{here}}.\\
 {\bf Course websites}: \href{https://moodle.utu.fi/course/view.php?id=33451}{\texttt{Moodle}} (students) \& \href{https://planner.peppi.utu.fi/group/opettajan-tyopoyta/toteutusten-hallinta?p_p_id=RealizationPortlet_WAR_realizationportlet&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&_RealizationPortlet_WAR_realizationportlet_struts.portlet.action=%2Frealization%2Freservation_template&_RealizationPortlet_WAR_realizationportlet_struts.portlet.mode=view&realization.realizationId=51413}{\texttt{Peppi}} (instructor only).\\
-{\bf Time}: Always from 12.15 pm to 1.55 pm.
+{\bf Time}: Always from 12pm to 2pm (in practice from 12.15pm to 1.55pm).
 
 
 
 
 %\vspace{4mm}
-{\bf Room}: \texttt{Pub-368}.\\
-\\
-{\bf Fall 2025 dates}:
+{\bf Room}: \texttt{Pub-368}.
+\end{syllabusbox}
+
+\begin{syllabusbox}{DatesGreen}{Fall 2026 dates:}
 
 \begin{itemize}
 
-\item {\bf Lecture \#1}: 27.10.
-\item {\bf Lecture \#2}: 03.11.
-\item {\bf Lecture \#3}: 10.11.
-\item {\bf Lecture \#4}: 17.11.
-\item {\bf Lecture \#5}: 25.11.
-\item {\bf Lecture \#6}: 02.12.
+\item {\bf Lecture \#1}: 26.10.2026.
+\item {\bf Lecture \#2}: 02.11.2026.
+\item {\bf Lecture \#3}: 09.11.2026.
+\item {\bf Lecture \#4}: 16.11.2026.
+\item {\bf Lecture \#5}: 24.11.2026 .
+\item {\bf Lecture \#6}: 01.12.2026.
 
 \end{itemize}
+\end{syllabusbox}
 
 
 %\vspace{5mm}
