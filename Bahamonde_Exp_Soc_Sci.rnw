@@ -183,7 +183,7 @@
 \texttt{w:}\href{http://www.hectorbahamonde.com}{\texttt{www.HectorBahamonde.com}}\\
 {\bf Office Hours and Zoom Meetings}: Schedule time with me \href{https://calendly.com/bahamonde}{\texttt{here}}.\\
 %{\bf Zoom}: Meetings in Zoom is also possible \href{https://utu.zoom.us/my/bahamondeh}{\texttt{here}}.\\
-{\bf Course websites}: \href{https://moodle.utu.fi/course/view.php?id=33451}{\texttt{Moodle}} (students) \& \href{https://planner.peppi.utu.fi/group/opettajan-tyopoyta/toteutusten-hallinta?p_p_id=RealizationPortlet_WAR_realizationportlet&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&_RealizationPortlet_WAR_realizationportlet_struts.portlet.action=%2Frealization%2Freservation_template&_RealizationPortlet_WAR_realizationportlet_struts.portlet.mode=view&realization.realizationId=51413}{\texttt{Peppi}} (instructor only).\\
+{\bf Course websites}: \href{https://moodle.utu.fi/course/view.php?id=33451}{\texttt{Moodle}} (students) \& \href{https://planner.peppi.utu.fi/group/suunnittelijan-tyopoyta}{\texttt{Peppi}} (instructor only).\\
 {\bf Time}: Always from 12pm to 2pm (in practice from 12.15pm to 1.55pm).
 
 
@@ -258,7 +258,7 @@ I expect nothing but the best out of my students.
 \begin{enumerate}
   \item {\bf One reaction paper submitted online}: You will submit one reaction paper. You have to choose the week, i.e., the topic. {\bf The only week you \emph{cannot} choose is Lecture \#6}.\\
 
-  Reaction papers are topical, i.e., they focus on themes rather than particular pieces. Also, reaction papers are critical assessments of the reading material, i.e., {\bf they are \emph{not} summaries}. Make sure you do \emph{all} your readings \emph{before} start writing. {\bf Reaction papers are due \emph{before} my lecture and submitted in the course's respective \texttt{Moodle} assignment section} (late papers and/or submissions via email will \emph{not} be considered). Make sure the length of your paper is never below 1k words but never longer than 1.5k words (I'll stop reading beyond that limit). Also, be sure to support your claims citing what you think is relevant; bear in mind aspects of citation format, and please, be economical (quotes should not exceed two sentences).
+  Reaction papers are topical, i.e., they focus on themes rather than particular pieces. That is, you may write considering \emph{one}, \emph{some} or \emph{all} assigned readings (as long as there is some kind of common narrative in your writing). Also, reaction papers are critical assessments of the reading material, i.e., {\bf they are \emph{not} summaries}. Make sure you do \emph{all} your readings \emph{before} start writing. {\bf Reaction papers are due \emph{before} my lecture and submitted in the course's respective \texttt{Moodle} assignment section} (late papers and/or submissions via email will \emph{not} be considered). Make sure the length of your paper is never below 1k words but never longer than 1.5k words (I'll stop reading beyond that limit). Also, be sure to support your claims citing what you think is relevant; bear in mind aspects of citation format, and please, be economical (quotes should not exceed two sentences).
 
 
   \begin{itemize}
